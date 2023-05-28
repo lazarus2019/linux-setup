@@ -1,0 +1,9 @@
+## Enable Bluetooth
+sudo systemctl start bluetooth –> This is only for single session use.
+
+sudo systemctl enable bluetooth –> Enables to start Bluetooth when booting the machine (permanent)
+
+If you want to have Bluetooth enabled by default and start the service immediately:
+
+sudo systemctl enable --now bluetooth
+
