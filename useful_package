@@ -1,0 +1,32 @@
+## Ulauncher - Linux Application Launcher
+github: https://github.com/Ulauncher/Ulauncher
+yay terminator
+systemctrl --user enable --now ulauncher (Run Ulauncher on startup)
+
+## Pomatez - Stay Focused. Take a Break.
+github: https://github.com/zidoro/pomatez
+yay pomatez
+
+## Neovim - Vim-fork focused on extensibility and usability
+github: https://github.com/neovim/neovim
+cheatsheet: https://neovim.io/doc/user/quickref.html
+yay neovim
+
+## Fish-shell - The user-friendly command line shell.
+github: https://github.com/fish-shell/fish-shell
+yay fish
+
+=== Fish shell extensions ===
+### Peco - Simplistic interactive filtering tool
+github: https://github.com/peco/peco
+yay peco
+
+### Z - Pure-fish z directory jumping
+github: https://github.com/jethrokuan/z
+yay fisher
+fisher install jethrokuan/z
+
+## Terminator - multiple GNOME terminals in one window
+github: https://github.com/gnome-terminator/terminator
+docs: https://gnome-terminator.readthedocs.io/en/latest/
+yay terminator
