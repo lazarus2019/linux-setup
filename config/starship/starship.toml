@@ -37,15 +37,15 @@ format = '[[ $symbol $branch ](fg:#769ff0 bg:#394260)]($style)'
 style = "bg:#394260"
 format = '[[($all_status$ahead_behind )](fg:#769ff0 bg:#394260)]($style)'
 conflicted = '🏳'
-ahead = '🏎💨'
+ahead = '🏎'
 behind = '😰'
 diverged = '😵'
 up_to_date = '✓'
-untracked = '🤷'
+untracked = '?'
 stashed = '📦'
-modified = '📝'
+modified = '✎ '
 staged = '[++\($count\)](green)'
-renamed = '👅'
+renamed = '»'
 deleted = '🗑'
 
 [nodejs]
@@ -158,7 +158,7 @@ Unknown = " "
 Windows = " "
 
 [package]
-symbol = " "
+symbol = "📦 "
 format = '\[[$symbol$version]($style)\]'
  
 [pijul_channel]

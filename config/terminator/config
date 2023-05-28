@@ -9,6 +9,10 @@
   new_tab = <Primary>t
   split_horiz = <Primary><Alt>minus
   split_vert = <Primary><Alt>equal
+  page_up = Page_Up
+  page_down = Page_Down
+  move_tab_right = ""
+  move_tab_left = ""
   next_tab = <Shift>Tab
   switch_to_tab_1 = <Alt>1
   switch_to_tab_2 = <Alt>2
@@ -33,7 +37,8 @@
     show_titlebar = False
     scrollbar_position = hidden
     scrollback_infinite = True
-    palette = "#303030:#e1321a:#6ab017:#ffc005:#729fcf:#c061cb:#ffa348:#f2f2f2:#5d5d5d:#ff361e:#7bc91f:#ffd00a:#0071ff:#ff1d62:#4bb8fd:#a020f0"
+    palette = "#303030:#f66151:#57e389:#ffc005:#729fcf:#c061cb:#ffa348:#ffffff:#5d5d5d:#ff361e:#7bc91f:#ffd00a:#0071ff:#ff1d62:#4bb8fd:#a020f0"
+    use_custom_command = True
     custom_command = fish
     use_system_font = False
     bold_is_bright = True
@@ -63,7 +68,8 @@
       order = 0
       profile = default
       uuid = 42500ddb-0847-4012-a837-9539c69dccd1
-      command = fish && cd workspace/
+      command = fish
+      directory = ~/workspace/
     [[[child3]]]
       type = VPaned
       parent = child1
@@ -76,12 +82,61 @@
       order = 0
       profile = default
       uuid = 6fae09a3-94ec-46c7-8d89-8b9d987def02
-      command = fish && cd workspace/
+      command = fish
+      directory = ~/workspace/
     [[[terminal5]]]
       type = Terminal
       parent = child3
       order = 1
       profile = default
       uuid = 86c3997f-8b1a-4602-a36b-b9ed6203e790
-      command = fish && cd workspace/
+      command = fish
+      directory = ~/workspace/
+  [[SaveLastSessionLayout]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 0:0
+      maximised = True
+      fullscreen = False
+      size = 1, 19
+      title = Terminator
+      last_active_term = 42500ddb-0847-4012-a837-9539c69dccd1
+      last_active_window = True
+    [[[child1]]]
+      type = HPaned
+      parent = child0
+      order = 0
+      position = 905
+      ratio = 0.6649522409992652
+    [[[terminal2]]]
+      type = Terminal
+      parent = child1
+      order = 0
+      profile = default
+      uuid = 42500ddb-0847-4012-a837-9539c69dccd1
+      directory = ~/workspace/
+      command = ""
+    [[[child3]]]
+      type = VPaned
+      parent = child1
+      order = 1
+      position = 247
+      ratio = 0.3378932968536252
+    [[[terminal4]]]
+      type = Terminal
+      parent = child3
+      order = 0
+      profile = default
+      uuid = 6fae09a3-94ec-46c7-8d89-8b9d987def02
+      directory = ~/workspace/
+      command = ""
+    [[[terminal5]]]
+      type = Terminal
+      parent = child3
+      order = 1
+      profile = default
+      uuid = 86c3997f-8b1a-4602-a36b-b9ed6203e790
+      directory = ~/workspace/
 [plugins]
