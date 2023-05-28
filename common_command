@@ -7,3 +7,17 @@ If you want to have Bluetooth enabled by default and start the service immediate
 
 sudo systemctl enable --now bluetooth
 
+## Install node & yarn
+yay fnm
+fnm install "18.1.0"
+fnm use "18.1.0"
+corepack enable
+yarn --version
+
+## Font family
+yay nerd hacker
+
+## Ibus-bamboo - vietnamese unikey
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/BambooEngine/ibus-bamboo/master/archlinux/install.sh)"
+
+## 
