@@ -1,0 +1,4 @@
+## Fix nautilus not default file manager after install visual studio node
+
+$ xdg-mime default org.gnome.Nautilus.desktop inode/directory
+
