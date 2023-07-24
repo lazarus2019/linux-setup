@@ -10,10 +10,12 @@ set -g theme_hide_hostname no
 set -g theme_hostname always
 
 # aliases
-alias ls "ls -p -G"
+if type -q exa
+alias ls "exa ls -p -G --icons --header --time-style=default"
 alias la "ls -A"
 alias ll "ls -l"
-alias lla "ll -A"
+alias lla "ll -A --tree"
+alias vi nvim
 alias g git
 command -qv nvim && alias vim nvim
 
