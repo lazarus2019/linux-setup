@@ -2,3 +2,7 @@
 
 $ xdg-mime default org.gnome.Nautilus.desktop inode/directory
 
+## When arrow keys display A,D,E,F,... in vi
+
+create new file .vimrc and write this line: set nocompatible
+
