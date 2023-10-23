@@ -1,22 +1,51 @@
-local function my_on_attach(bufnr)
-  local api = require "nvim-tree.api"
+-- disable netrw at the very start of your init.lua
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
 
-  local function opts(desc)
-    return { desc = "nvim-tree: " .. desc, buffer = bufnr, noremap = true, silent = true, nowait = true }
-  end
+-- relative number
+vim.wo.relativenumber = true
 
-  -- default mappings
-  api.config.mappings.default_on_attach(bufnr)
+-- set termguicolors to enable highlight groups
+vim.opt.termguicolors = true
 
-  -- custom mappings
-  vim.keymap.set('n', '<C-t>', api.tree.change_root_to_parent,        opts('Up'))
-  vim.keymap.set('n', '?',     api.tree.toggle_help,                  opts('Help'))
+vim.wo.number = true
+
+local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
+if not vim.loop.fs_stat(lazypath) then
+    vim.fn.system(
+        {"git", "clone", "--filter=blob:none", "https://github.com/folke/lazy.nvim.git", "--branch=stable", -- latest stable release
+         lazypath})
 end
+vim.opt.rtp:prepend(lazypath)
 
--- pass to setup along with your other options
-require("nvim-tree").setup {
-  ---
-  on_attach = my_on_attach,
-  ---
-}
+require("lazy").setup({
+	{ "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+	{
+    'vim-airline/vim-airline',
+    lazy = false
+}, {
+    'vim-airline/vim-airline-themes',
+    lazy = false
+}, {
+    "nvim-tree/nvim-tree.lua",
+    version = "*",
+    lazy = false,
+    dependencies = {"nvim-tree/nvim-web-devicons"},
+    config = function()
+        require("nvim-tree").setup({
+            sort_by = "case_sensitive",
+            view = {
+                width = 30
+            },
+            renderer = {
+                group_empty = true
+            },
+            filters = {
+                dotfiles = true
+            }
+        })
+    end
+}}, opts)
+
+vim.cmd.colorscheme "catppuccin"
 
