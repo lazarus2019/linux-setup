@@ -209,6 +209,8 @@ config.inactive_pane_hsb = {
     saturation = 0.8,
     brightness = 0.5
 }
+-- Disable beep sound (bell rings) for laptop
+config.audible_bell = "Disabled"
 
 -- and finally, return the configuration to wezterm
 return config
