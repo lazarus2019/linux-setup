@@ -10,11 +10,6 @@ set -g theme_hide_hostname no
 set -g theme_hostname always
 
 # aliases
-if type -q exa
-alias ls "exa ls -p -G --icons --header --time-style=default"
-alias la "ls -A"
-alias ll "ls -l"
-alias lla "ll -A --tree"
 alias vi nvim
 alias g git
 command -qv nvim && alias vim nvim
@@ -61,3 +56,8 @@ end
 
 # Starship setup
 starship init fish | source
+
+# volta
+set -gx VOLTA_HOME "$HOME/.volta"
+set -gx PATH "$VOLTA_HOME/bin" $PATH
+
