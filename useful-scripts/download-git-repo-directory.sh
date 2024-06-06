@@ -13,10 +13,7 @@ read -r list_directory
 # TODO: show prompt to confirm delete directory
 
 # Get the repo name
-repo_name=$(echo "$repo_url" | sed 's|.*/||')
-
-# Remove .git if present
-repo_name=${repo_name%.git}
+repo_name=$(echo "$repo_url" | sed -E 's|^.*[:/](.*)$|\1|' | sed 's|.git$||')
 
 # Clone the repo
 git clone -n --depth=1 --filter=tree:0 $repo_url
