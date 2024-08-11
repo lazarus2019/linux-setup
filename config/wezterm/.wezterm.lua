@@ -154,8 +154,21 @@ for i = 1, 9 do
     -- })
 end
 
--- For example, changing the color scheme: Dark Violet (base16) | Argonaut (Gogh) | Blue Matrix | cyperpunk
-config.color_scheme = 'deep'
+-- For example, changing the color scheme: Dark Violet (base16) | Argonaut (Gogh) | Blue Matrix | cyperpunk | Materia (base16) | Obsidian
+-- config.color_scheme = 'deep'
+-- config.color_scheme = 'Obsidian'
+
+colors, metadata = wezterm.color.load_scheme("wezterm-color-scheme/obsidian.toml")
+config.colors = colors
+
+-- config.colors = {
+--       ansi = {
+--     "#000000","#FF8225","#00bb00","#fecd22","#3a9bdb","#bb00bb","#00bbbb","#bbbbbb"
+--   },
+--   brights = {
+--    "#555555","#ff0003","#93c863","#fef874","#a1d7ff","#ff55ff","#55ffff","#ffffff"
+--   },
+-- }
 
 -- Appearance
 -- config.window_decorations = "RESIZE"
@@ -196,7 +209,7 @@ config.font = wezterm.font("Hack Nerd Font", {
 --     }
 -- }, 'Consolas', 'Courier New', 'monospace'}
 
-config.window_background_opacity = 0.8
+config.window_background_opacity = 0.85
 
 -- For custom background image
 -- config.window_background_image = 'Downloads/wezterm_wallpaper.jpg'
