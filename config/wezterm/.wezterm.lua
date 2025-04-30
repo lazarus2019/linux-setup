@@ -84,11 +84,11 @@ config.keys = { -- config ActivatePaneDirection
 }, -- This will rotate pane
 {
     key = 'b',
-    mods = 'CTRL',
+    mods = 'CTRL|ALT',
     action = act.RotatePanes 'CounterClockwise'
 }, {
     key = 'n',
-    mods = 'CTRL',
+    mods = 'CTRL|ALT',
     action = act.RotatePanes 'Clockwise'
 }, -- Clears the scrollback and viewport, and then sends CTRL-L to ask the
 -- shell to redraw its prompt
@@ -154,8 +154,21 @@ for i = 1, 9 do
     -- })
 end
 
--- For example, changing the color scheme: Dark Violet (base16) | Argonaut (Gogh) | Blue Matrix | cyperpunk
-config.color_scheme = 'deep'
+-- For example, changing the color scheme: Dark Violet (base16) | Argonaut (Gogh) | Blue Matrix | cyperpunk | Materia (base16) | Obsidian
+-- config.color_scheme = 'deep'
+-- config.color_scheme = 'Obsidian'
+
+colors, metadata = wezterm.color.load_scheme("wezterm-color-scheme/obsidian.toml")
+config.colors = colors
+
+-- config.colors = {
+--       ansi = {
+--     "#000000","#FF8225","#00bb00","#fecd22","#3a9bdb","#bb00bb","#00bbbb","#bbbbbb"
+--   },
+--   brights = {
+--    "#555555","#ff0003","#93c863","#fef874","#a1d7ff","#ff55ff","#55ffff","#ffffff"
+--   },
+-- }
 
 -- Appearance
 -- config.window_decorations = "RESIZE"
@@ -182,11 +195,11 @@ config.window_frame = {
 }
 
 -- For font configs
-config.font = wezterm.font("Hack Nerd Font", {
-    weight = "Bold",
-    stretch = "Normal",
-    style = "Normal"
-}) -- /usr/share/fonts/TTF/HackNerdFont-Regular.ttf, FontConfig
+-- config.font = wezterm.font("Hack Nerd Font", {
+--     weight = "Bold",
+--     stretch = "Normal",
+--     style = "Normal"
+-- }) -- /usr/share/fonts/TTF/HackNerdFont-Regular.ttf, FontConfig
 -- config.font = wezterm.font_with_fallback {{
 --     family = "Hack Nerd Font",
 --     {
@@ -196,7 +209,7 @@ config.font = wezterm.font("Hack Nerd Font", {
 --     }
 -- }, 'Consolas', 'Courier New', 'monospace'}
 
-config.window_background_opacity = 0.8
+config.window_background_opacity = 0.85
 
 -- For custom background image
 -- config.window_background_image = 'Downloads/wezterm_wallpaper.jpg'
@@ -209,6 +222,8 @@ config.inactive_pane_hsb = {
     saturation = 0.8,
     brightness = 0.5
 }
+-- Disable beep sound (bell rings) for laptop
+config.audible_bell = "Disabled"
 
 -- and finally, return the configuration to wezterm
 return config
