@@ -28,6 +28,14 @@ set -gx PATH ~/.local/bin $PATH
 # NodeJS
 set -gx PATH node_modules/.bin $PATH
 
+# bun
+set --export BUN_INSTALL "$HOME/.bun"
+set --export PATH $BUN_INSTALL/bin $PATH
+set -gx VOLTA_HOME "$HOME/.volta"
+set -gx PATH "$VOLTA_HOME/bin" $PATH
+
+fish_add_path /home/ntson/.spicetify
+
 # Go
 set -g GOPATH $HOME/go
 set -gx PATH $GOPATH/bin $PATH
@@ -61,3 +69,6 @@ end
 
 # Starship setup
 starship init fish | source
+
+# Spicetify setup
+fish_add_path /home/ntson/.spicetify
