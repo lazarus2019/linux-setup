@@ -1,4 +1,4 @@
-set fish_greeting ""
+set fish_greeting "I'm 🐟 shell, those are my friends 🐠 🐡 🐳 🦈"
 
 set -gx TERM xterm-256color
 
