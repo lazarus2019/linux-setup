@@ -19,6 +19,20 @@ alias vi nvim
 alias g git
 command -qv nvim && alias vim nvim
 
+# Nix package manager: https://nix.dev/manual/nix/2.28/command-ref
+if type -q nix # https://fishshell.com/docs/current/cmds/if.html
+alias nixs "nix search nixpkgs" # Searching package
+alias nixe "nix-env" 
+alias nixi "nix-add-package" # Add package to env without flakes
+# alias nixi "nix profile install" # Add package to env with flakes
+alias nixu "nixe -e" # Remove package from env
+alias nixug "nixe -u" # Upgrate package in env
+alias nixls "nixe --query" # List user packages
+alias nix-clear "nix-collect-garbage" # free up storage (store object)
+# nix store
+alias nixst "nix store"
+end
+
 set -gx EDITOR nvim
 
 set -gx PATH bin $PATH
