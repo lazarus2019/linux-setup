@@ -1,0 +1,10 @@
+[Unit]
+Description=Remap keyboard layer with Kanata
+
+[Service]
+ExecStartPre=/sbin/modprobe uinput
+Type=simple
+ExecStart=kanata -c /home/thaison/.config/kanata/kanata.kbd
+
+[Install]
+WantedBy=default.target
