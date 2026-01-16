@@ -1,0 +1,38 @@
+(defcfg
+  input (device-file "/dev/input/by-id/usb-Keychron_Keychron_Q1-if02-event-kbd")
+  output (uinput-sink "Logitect Keyboard Kmonad")
+  fallthrough true
+)
+ 
+(defsrc
+  ;; esc
+  caps   a    s    d    f    g    h    j    k    l    ;
+  spc
+)
+ 
+(defalias
+    ;; grave_esc grv
+    esc_ctrl (tap-hold-next-release 300 esc lctrl)
+    met_a (tap-hold-next-release 300 a lmet)
+    alt_s (tap-hold-next-release 300 s lalt)
+    sft_d (tap-hold-next-release 300 d lsft)
+    ctl_f (tap-hold-next-release 300 f lctl)
+    spc (tap-hold 300 spc (layer-toggle space))
+ 
+    ctl_j (tap-hold-next-release 300 j rctl)
+    sft_k (tap-hold-next-release 300 k rsft)
+    alt_l (tap-hold-next-release 300 l lalt)
+    met_; (tap-hold-next-release 300 ; rmet)
+)
+ 
+(deflayer homerowmods
+    ;; @grave_esc
+    @esc_ctrl @met_a @alt_s @sft_d @ctl_f g h @ctl_j @sft_k @alt_l @met_;
+    @spc
+)
+ 
+(deflayer space
+    ;; @grave_esc
+    @esc_ctrl a s    d    f    g    left down up   rght ;
+    spc
+)

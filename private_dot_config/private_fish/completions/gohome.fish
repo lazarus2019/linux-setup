@@ -1,0 +1,7 @@
+complete --command gohome --exclusive --long help --description "Print help"
+complete --command gohome --exclusive --long version --description "Print version"
+complete --command gohome --exclusive --condition __fish_use_subcommand --arguments install --description "Install plugins"
+complete --command gohome --exclusive --condition __fish_use_subcommand --arguments update --description "test conetnet"
+complete --command gohome --exclusive --condition __fish_use_subcommand --arguments remove --description "Remove installed plugins"
+complete --command gohome --exclusive --condition __fish_use_subcommand --arguments list --description "List installed plugins matching regex"
+complete --command gohome --exclusive --condition "__fish_seen_subcommand_from update remove" --arguments "(gohome list)"

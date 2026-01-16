@@ -1,0 +1,3538 @@
+chezmoi add .bash_profile
+chezmoi add .bashrc
+cd ~
+chezmoi add ~/fzf-preview.sh
+code ~
+chezmoi add ~/.gitconfig
+chezmoi add user-dirs.dirs
+chezmoi add mimeapps.list
+chezmoi add starship.toml
+chezmoi add nvim
+chezmoi add cava
+code .
+chezmoi add ~/personal_services/
+chezmoi add ~/.wezterm-custom.lua
+chezmoi add waybar hypr fish kitty fcitx fcitx5 nwg-displays rofi kanata kmonad rofi wlogout
+cd ~/.config
+ls
+chezmoi init
+git co co-hyprland-config
+git fetch origin co-hyprland-config
+git ps origin hyprland-config-co-bk
+git st
+gits t
+code .git/config
+code .git/
+git config --local user.name lazarus2019
+git config --local user.email thaisonbk2020@gmail.com
+git l1l
+git ci "feat(config): add kanata, rofi, wlogout, waybar, kmonad"
+git add .
+git stash pop
+git co -b "hyprland-config-co-bk"
+git stash -u
+cp -r ~/.config/rofi/ ./config/
+cp -r ~/.config/wlogout/ ./config/
+cp -r ~/.config/waypaper ./config/
+cp -r ~/.config/waybar/ ./config/
+tilix
+cd ..
+cp -r ~/.config/kmonad/ .
+cp -r ~/.config/kanata/ .
+code setup_service.md
+touch setup_service.md
+cd config/
+cp -r ~/personal_services/ config/
+cd -
+ks
+cp ~/.wezterm-custom.lua config/
+git log
+fish_add_path "/home/thaison/.bun/bin"
+bun i -g gitmoji-cli
+code .config/fish/
+make lint
+go test -v ./internal/parser/...
+gohome-local -b -f markdown
+gohome-local -b -f table
+git add internal/parser/parser.go
+git add cmd/gohome/main.go
+git co -b "fix/commit-messsage-repeated-when-log-all-branches"
+go mod tidy
+go build cmd/gohome/main.go
+gohome-local
+main
+go run cmd/gohome/main.go
+git ca
+git co test/hello-2
+git co test/hello
+git co test/content
+git branch
+git co main
+igt st
+git ci "chore(ui): remove zindex file"
+rm z-index.html
+git co -b "test/content"
+git co -
+git ci "chore(ui): add temp html"
+touch temp.html
+git ci "chore(ui): add test file"
+touch test.js
+git co -b "test/hello-2"
+git ci "fix(test): add hello file"
+touch hello.world
+git co -b "test/hello"
+code
+git -v
+go --version
+go -v
+code ~/.gohome.json
+go run $gohome
+go run gohome
+alias gohome "/home/thaison/workspace/github.com/anIcedAntFA/gohome/cmd/gohome/main.go"
+pwd | fish_clipboard_copy
+pwd
+git log --branches --author="Thai Son" --since="10 days" --oneline
+go run temp.go
+gohome -
+git branch -a
+ghq list
+ghq get git@github.com:anIcedAntFA/gohome.git
+rm -rf gohome/
+yay git lfs
+git restore .
+git restore --staged .
+yay -R git-lfs
+clear
+cat group
+cd /etc/
+sudo gpasswd -a $USER sudo
+sudo cat /etc/sudoers
+cat /etc/sudoers
+bash
+su test
+sudo passwd test
+passwd test
+sudo test
+test
+sudo useradd -m test
+useradd -m test
+getent passwd
+getent passwd lalit
+getent group
+compgen -g
+compgen -u
+usermod -h
+sudo blkid
+bun dev
+sudo cat /boot/grub/grub.cfg
+users
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+sudo update-grub
+yay update-grub
+sudo grub-install --target=x86_64-efi --efi-directory=/boot/efi/
+cat .wezterm-custom.lua
+pnpm i
+pnpm run dev --filter server
+cd apps/server/
+pnpm run dev
+pnpm run dev --filter console
+pnpm run migrate
+pnpm run generate
+docker compose down -v && docker compose up -d
+git ps origin fix/ELWP-12941 -f
+git co fix/ELWP-12941
+git co refactor/move-files-and-folders-follow-fsd
+git fetch origin refactor/move-files-and-folders-follow-fsd
+pnpm run dev --filter storybook
+git pull origin develop --rebase
+git s
+command
+/usr/local/bin
+/usr/bin
+yay -R cowsay
+cowsay
+yay cowsay
+rate-mirrors arch | sudo tee /etc/pacman.d/mirrorlist
+rate-mirrors endeavouros | sudo tee /etc/pacman.d/endeavouros-mirrorlist
+yay google chrome
+yay -R brave-bin
+git log --branches --author="Thai Son" --since="10 days"
+git log --branches --author="Thai Son" --since="2 days"
+which bun
+volta list
+volta install bun
+npx @ngockhoi96/gohome -v
+bunx @ngockhoi96/gohome -v
+npx @ngockhoi96/gohome@v1.0.4 -v
+npx  @ngockhoi96/gohome@v1.0.4 -v
+bun install -g @ngockhoi96/gohome
+npx run gohome -v
+npx gohome -v
+go install github.com/anIcedAntFA/gohome/cmd/gohome@v1.0.3
+export NODE_TLS_REJECT_UNAUTHORIZED=0 && npm i -g @ngockhoi96/gohome
+which gohome
+rm gohome
+$SHELL
+code ~/.config/fish/
+ls /usr/local/bin/
+ls /home/thaison/go/bin/
+npx gohome --help
+npm clean cache --force
+npm i -g @ngockhoi96/gohome
+bunx gohome
+bunx gohome -v
+bun uninstall -g @ngockhoi/gohome
+bun uninstall -g gohome
+bun install -g @ngockhoi96/gohome@v1.0.2
+type gohome
+test gohome
+curl -sSL https://raw.githubusercontent.com/anIcedAntFA/gohome/main/scripts/install.sh | bash
+bun i -g @ngockhoi96/gohome
+bun i -g @ngockhoi96/gohome@v1.0.4
+bunx i -g @ngockhoi96/gohome@v1.0.4
+bun pm -g ls gohome
+bun list -g gohome
+bun run list gohome
+bun list gohome
+bun i -g @ngockhoi96/gohome@1.0.3-hotfix.2
+git co develop
+git ps origin fix/ELWP-12941
+git ci "fix(ui-block): ELWP-12941 slide intro content dimmed container"
+git co -b "fix/ELWP-12941"
+git co fix/ELWP-12643
+git ps origin fix/ELWP-12932 -f
+git ps origin fix/ELWP-12932
+git rebase --continue
+git add
+git ci "refactor(ui-block): detail remove resize observer for images"
+git co fix/ELWP-12932
+git ps origin fix/ELWP-12643 -f
+git reflog
+git reset --hard HEAD@\{7\}
+git reset --hard HEAD@\{1\}
+git co -b "feat/scan-local-branches"
+pnpm run lint
+git ps origin fix/ELWP-12643
+git cherry-pick 54c3085d831bc99fb2084fdf82158d28fda41575^..3d9146138e2650bf9339b74ababecf948ba517a4
+git ps origin fix/ELWP-12643-bk
+git co -b "fix/ELWP-12643"
+git branch -D fix/ELWP-12643
+git co "fix(server)/move-apikey-external-service-from-site-to-project"
+git co -b "fix/ELWP-12643-bk"
+git pull origin "fix(server)/move-apikey-external-service-from-site-to-project" --rebase
+git fetch origin "fix(server)/move-apikey-external-service-from-site-to-project"
+git fetch origin fix(server)/move-apikey-external-service-from-site-to-project
+git ci "fix(console): ELWP-12643 update board info from site to project
+
+- add TOY API information ui in page site list
+- remove temporary site info in board setting page
+- replace site board info with project board info
+ - page site board setting unlink/link
+ - page create site edit component
+"
+git log --branches --author="thaison" --since="2 days" --oneline
+git log --branches --author="thaison" --since="2 days" --format=short
+git log --branches --author="thaison" --since="2 days"
+git ci "fix(console): ELWP-12643 update board setting route info
+
+2026-01-09 11:08
+test  
+test
+"
+pnpm run build:sdk
+git ci "chore(sdk): generate sdk project & site dto"
+cd ...
+docker compose up -d
+pnpm run db:generate
+docker compose down
+find
+git shortlog --group=author --group=trailer:co-authored-by
+gohome -a "permees" -w 10
+gohome -a "permees"
+gohome -a "Permees"
+gohome -a "Permess"
+gohome -a "permess"
+gohome -a permess
+gohome -a permesss
+test --help
+test -h
+git log --first-parent --all
+git log --first-parent --alll
+git log --first-parent
+git standup
+go install github.com/anIcedAntFA/gohome/cmd/gohome@latest
+git stash apply stash@\{0\}
+pnpm run generate:swagger
+cd //
+pnpm drizzle-kit push
+docker ps
+docker compose down -v
+git cherry-pick b50411d352aa4e265d66fb33a9b668789f65e7b6
+git ps origin feat/test
+bun commit
+gita dd .
+git co -b "feat/test"
+git co -b
+git reset 1f06b4b
+git pull --rebase
+cod e.
+git log --pretty=format:%s%b
+git log --pretty=format:%b
+git log --pretty=format:%N
+git log --pretty=format:%s
+git log --pretty=format:%2
+cat ~/.gohome.json
+go run /home/thaison/workspace/github.com/anIcedAntFA/gohome/cmd/gohome/main.go
+cd cmd/gohome/
+git ps origin fix/test
+git branch -m "fix/test"
+git branch -m
+git ps origin test
+git ci "fix(test): hdhdhdhdhdhdhdhdhdhdhdh
+
+hdhdhdhdhdhdhdhdhdhdh
+hdhdhdhdhdhdhdhdhdhdhd
+hdhdhdhdhdhdhdhdhdhdh
+asd
+AsyncDisposableStackas
+DatabaseSync"
+git ci "fix(test): test commitLASJdlkjasldkja\n\t\n\t\n\tsdaddjdjdjdjdjdjdjdjdjdjdjdjdjdjdjdjdjdjdjdjdjdjdjdjd"
+echo "asdasd" >> hello.world
+git ci "fix(test): test commit"
+git co -b "test"
+curl -sSL https://raw.githubusercontent.com/anIcedAntFA/gohome/main/install.sh | bash
+git co fix/ELWP-12930
+git fetch origin fix/ELWP-12930
+git config user.name
+git ci "fix(ui-block): ELWP-12932 board notices post"
+git add packages/ui-block/src/components/board/bulletin-board-in-main/bulletin-board-in-main.ui.tsx
+git add ui
+git co -b "fix/ELWP-12932"
+git ps origin perf/ui-block-intro-content-bg-position -f
+git ps origin perf/ui-block-intro-content-bg-position
+git ci "perf(ui-block): style intro content bg position"
+git add packages/ui-block/src/components/content-introduction/scrollable-type/styles.module.css
+git add packages/ui-block/src/components/content-introduction/rollup-type/item/styles.module.css
+git add css
+git branch -m "perf/ui-block-intro-content-bg-position"
+git co -b "perf/ui-block-intro-content-bg-posin"
+gohome -f text -t "hello manh" -t "hi huy" -i
+gohome -f text -t "hello manh" -t "hi huy"
+gohome -f text
+gohome -w 1 -f table -s markdown -c -cp --save
+gohome -w 1 -f table -s markdown -c --copy
+gohome -w 1 -f table -c --copy
+gohome -w -f table -c --copy
+ll $GOPATH/bin/
+ls $GOPATH/bin/
+go help install
+go install --help
+go --verbose install ./cmd/gohome/main.go
+go install ./cmd/gohome/main.go --verbose
+go install ./cmd/gohome/main.go
+lla
+la $GOPATH/bin/
+go install
+cat $GOPATH/bin/
+echo $path
+echo $GOPATH
+echo $gopath
+./bin/gohome -w 1 -f table -cp
+./bin/gohome -h
+./bin/gohome
+make build
+make clean
+make -h
+make
+yay golangci lint
+gkldf cd ~
+nlkgdfsg fd
+fish_config theme choose coolbeans
+fish_config choose theme coolbeans
+cat git.fish
+cd completions/
+cd /usr/share/
+cd ~/.config/fish/
+alias gohome "ls"
+nu
+nushell
+cd $HOME/go
+cd starship/
+git clone --depth=1 git@github.com:starship/starship.git
+git plrb
+git ps origin fix/ELWP-12855
+git ci "style(ui-block): ELWP-12855 visual title & subtitle work break incorrect"
+git add packages/ui-block/src/components/representative-visual/styles.module.css
+git co fix/ELWP-12855
+hiy dy
+gi tst
+git ps origin fix/ELWP-12855 -f
+git ci "fix(ui-block): ELWP-12855 visual max height title & subtitle"
+git reset 6980bf64
+git pull origin develop w--rebase
+git co -b "fix/ELWP-12899"
+git ci "style(ui-block): ELWP-12855 visual content work break"
+git co -b "fix/ELWP-12855"
+git branch -D fix/ELWP-12855
+git ps origin fix/ELWP-12917
+git ci "style(ui-block): ELWP-12917 rollup intro dynamic primary color"
+git co -b "fix/ELWP-12917"
+g
+bun add -D @tanstack/react-query-devtools
+bun add @tanstack/react-query
+bund ev
+git ps origin fix/ELWP-12872 -f
+git ci "fix(ui-block): ELWP-12872 bulletin board main amount"
+git co fix/ELWP-12872
+git ci "style(ui-block): ELWP-12855 visual title, description overflow wrap"
+git ci "style(ui-block): ELWP-12855 visual title, description overflow-wrap"
+git ci "style(ui-block): ELWP-12855 visual title, description overflow wrap break word"
+git clean -fd
+git co develop w
+git reset --hard 20ccc4a5
+git reset 1ef4102d
+git ps origin refactor/add-store-to-ui-block -f
+git pull origin refactor/add-store-to-ui-block --rebase
+git co -b "fix/ELWP-12872"
+git co refactor/add-store-to-ui-block
+git fetch origin refactor/add-store-to-ui-block
+git ps origin fix/ELWP-12811 -f
+git ps origin fix/ELWP-12811 -df
+git ci "fix(console): ELWP-12811 disable,block  access bulletin board unlink tab"
+git reset a95e6768
+git ps origin fix/ELWP-12811
+git ci "fix(console): ELWP-12811 disable & avoid access bulletin board unlink tab"
+git ci "fix(console): ELWP-12811 disable & block access bulletin board unlink tab"
+git co fix/ELWP-12811
+git ps origin fix/ELWP-12828
+git ci "fix(ui-block): ELWP-12828 board paginate"
+git reset HEAD@\{1\}
+git co fix/ELWP-12828
+git ca --no-verify
+git ps origin fix/ELWP-12666 -f
+git co fix/ELWP-12666
+git ci "fix(console): ELWP-12811 disable unlink board button"
+git ci "fix(ui-block): ELWP-12666 visual & intro ui AOS scroll appear white line"
+git ci "fix(ui-block): ELWP-12666 visual & intro content scroll appear white line AOS"
+git add packages/ui-block/src/shared/ui/dimmed-boundary/dimmed-boundary.ui.tsx
+git co -b "fix/ELWP-12666"
+git co -b "fix/ELWP-12811"
+git co bugfix/ELWP-12864-table-content-has-no-left-padding
+git fetch origin bugfix/ELWP-12864-table-content-has-no-left-padding
+git ps origin fix/ELWP-12792 -f
+yay google
+yay chrome
+yay test
+sudo pacman -S google-chrome
+hyprctl clients
+hyprland clients
+google-chrome-stable p/linux-wget-va-cach-su-dung-XL6lA01RZek.html
+google-chrome-stable
+sudo pacman -S google-chrome-stable
+pacman -S google-chrome-stable
+ya
+git ps origin fix/ELWP-12792
+git ci "fix(ui-block): ELWP-12792 style rollup dimmed bg"
+git co fix/ELWP-12792
+git ps origin fix/ELWP-12856 -f
+git ps origin fix/ELWP-12856
+git ci "fix(console): translation board setting unlink confirm"
+git co -b "fix/ELWP-12856"
+git ci "fix(ui-block): ELWP-12792 board invalid search display empty ui instead"
+git ci "fix(ui-block): ELWP-12792 board invalid input search display empty ui instead"
+git add packages/ui-block/src/components/board/layout/layout-bulletin-board-a.ui.tsx
+gis t
+git ps origin fix/ELWP-12608 -f
+git co fix/ELWP-12608
+git co -b "fix/ELWP-12827"
+git co -b "fix/ELWP-12828"
+pnpm run check-types
+pnpm run type-check
+git cherry-pick f46dcf45c569a435fbb85de1d627fa98e34c3404
+git co -b "fix/ELWP-12792"
+git fetch origin bugfix/ELWP-12791-rollup-margin-1920
+git ps origin fix/ELWP-12608
+git ci "fix(console): ELWP-12608 persist projectId & navigate to site list"
+git reset 3c57a193
+git co fix/ELWP-12730
+c d..
+gbit st
+pnpm run build
+cd packages/ui-block/
+git co de
+ghq get ssh://git@gitlab.nexon.com:8022/analysis-support/gamescale/developer/gamescale-developer-markdown-docs.git
+git ci "fix(console): ELWP-12608 persist projectId"
+git ps origin fix/ELWP-12730 -f
+pnpm ui
+git reset 2629705c
+git ps origin fix/ELWP-12710 -f
+giuts t
+git ci "fix(ui-block): ELWP-12710 disable open contextmenu in layer video"
+git add packages/ui-block/src/components/content-introduction/layer-type/layer-type.ui.tsx
+git co fix/ELWP-12710
+git add packages/ui-block/src/shared/ui/dropdown-search/styles.module.css
+git reset 0dada0ae
+git ci "temp" --no-verify
+git stash list
+git stash -
+git add packages/ui-block/src/components/board/api/board.service.ts
+git
+yay obs
+sudo pacman -S wf-recorder
+pacman -S wf-recorder
+git reset fd2edd3e
+git ci "fix(ui-block): temp" --no-verify
+pnpm run build:dev
+pnpm bun build
+git stash -u -m "elwp-12710"
+git stash -u "elwp-12710"
+thunar
+kitten icat ephoto.png
+cd /usr/share/icons/
+hyprcursor-util -h
+hyprcursor-util
+git ci "fix(ui-block): ELWP-12730 bulletin board query data"
+pnpm remove @tanstack/react-query-devtools
+git ps origin fix/ELWP-12730
+git reset ae00d305
+git restore
+git ci "test: test" --no-verify
+git stash -u --keep-index
+git ps origin fix/console-can-not-submit-site-setting-basic-info -f
+pnpm turbo run check-types
+bun run tsc
+pnpm tsc --noEmit
+pnpm run tsc --noEmit
+cd apps/console/
+git co fix/console-can-not-submit-site-setting-basic-info
+git ps origin fix/ELWP-12720 -f
+git co fix/ELWP-12720
+git stash apply stash@\{1\}
+git reset --hard ff2a51a7
+git ps origin fix/console-can-not-submit-site-setting-basic-info
+git ci "fix(console): site edit can not submit conflict preset schema"
+pnpm turbo run build:sdk --cache=
+pnpm turbo run build:sdk
+git co -b "fix/console-can-not-submit-site-setting-basic-info"
+git ps origin fix/ELWP-12664
+git ci "fix(ui-block): ELWP-12664 avoid hover effect on touch device"
+git ci "fix(ui-block): ELWP-12664 avoid hover effect on mobile"
+git restore --staged packages/ui-block/
+git co fix/ELWP-12664
+git ps origin fix/ELWP-12720  -f
+git co fix/ELWP-12785
+git co refactor/add-progress-bar-template-design-setting
+git fetch origin refactor/add-progress-bar-template-design-setting
+git pull origin develop --rebased
+git ps origin fix/ELWP-12720
+git ci "fix(console): ELWP-12720 sidebar condition & validate route site edit"
+git ci "fix(console): ELWP-12720 sidebar menu condition & validate route site edit"
+git ci "fix(console): ELWP-12720 lnb basic information & validate route site edit"
+git ci "fix(console): ELWP-12720 lnb basic information"
+git ps origin fix/ELWP-12785
+git ci "fix(console): ELWP-12785 dynamic front domain by environment"
+pnpm run dev --mode development
+pnpm run dev --mode dev
+pnpm run dev --mode production
+pnpm run dev --mode pre
+pnpm run dev --filter console --mode qa
+git co -b "fix/ELWP-12785"
+git ps origin chore/switch-docker-user-to-root
+git ci "chore(docker): allow root debug on argocd"
+git co -b "chore/switch-docker-user-to-root"
+git restore --staged ..
+git ps origin fix/ELWP-12775 -f
+git co fix/ELWP-12775
+got st
+git ps origin fix/ELWP-12775
+git ci "fix(console): ELWP-12775 board setting failed to upASte"
+git co -b "fix/ELWP-12775"
+git ci "fix(temp): tesmp" --no-verify
+git stash push 'apps/console/src/pages/site-settings-board-settings/ui/ integration-tab/link-bulletin-board.ui.tsx'
+git pull origin develop -r
+pnpm i -D @tanstack/react-query-devtools
+pnpm i @tanstack/react-query
+git co bugfix/ELWP-12689-slow-preset-upload
+git fetch origin bugfix/ELWP-12689-slow-preset-upload
+git co fix/elwp-12736-show-image-name-site-setting-information
+git fetch origin fix/elwp-12736-show-image-name-site-setting-information
+git ps origin fix/ELWP-12739 -f
+git add ,
+git co fix/ELWP-12739
+git ps origin fix/ELWP-12664 -f
+git ps origin fix/ELWP-12739
+git ci "fix(console): ELWP-12739 site setting form error noti"
+git add apps/console/src/pages/site-settings-basic-information/ui/form/site-basic-info-form.ui.tsx
+git add apps/console/.oxlintrc.json
+git add apps/console/.oxlintrc.json q
+git co -b "fix/ELWP-12739"
+git ps origin fix/ELWP-12710
+git ci "fix(ui-block): ELWP-12710 hide download button in layer content intro"
+git co -b "fix/ELWP-12710"
+git co develop q
+git ci "fix(ui-block): ELWP-12664 banner/slide not autoplay after mobile click"
+git ci "fix(ui-block): ELWP-12664 board text skip hover effect in mobile"
+git stash -u -m "continue touch active"
+git stash push packages/ui-block/src/components/card/type-thumbnail-a/styles.module.css
+pnpm add -D postcss-mixins
+git branch | grep '[:space:]fix/'
+git branch | grep '^fix/'
+git branch | grep 'fix/'
+git branch | grep '^  fix/ELWP-12601-lnb-is-narrowed' | xargs git branch -D
+git branch | grep '^  fix/ELWP-12601-lnb-is-narrowed' | args git branch -D
+git branch | grep '^  fix/ELWP-12601-lnb-is-narrowed' | git branch -D
+git branch | grep '*fix/'
+git branch | grep '^*fix/'
+git branch | grep '^  fix/'
+git branch | grep '^  feature/'
+git co -b "fix/ELWP-12664"
+git branch -D fix/ELWP-12664
+git ci "fix(ui-block): ELWP-12730 bulletin board filter & sort" --no-verify
+git co -b "fix/ELWP-12730"
+git co -b "fix/ELWP-12715"
+git ps origin fix/remove-persist-from-site-settings-store -f
+git add apps/console/src/pages/create-site-edit-component/ui/create-site-edit-component.ui.tsx
+git co fix/remove-persist-from-site-settings-store
+git fetch origin fix/remove-persist-from-site-settings-store
+git ps origin fix/ELWP-12751
+git ci "fix(ui-block): ELWP-12751 date format skip covert to UTC"
+git add packages/ui-block/src/components/card/utils/index.ts
+git co -b "fix/ELWP-12751"
+git pull -r
+git co dew
+git ci "fix(ui-block): ELWP-12664 represent visual skip hover effect in mobile"
+git ci "fix(ui-block): ELWP-12664 representative visual skip hover effect in mobile"
+git ci "fix(ui-block): ELWP-12664 representative visual avoid hover effect in mobile"
+git ps origin fix/ELWP-12732 -f
+git ps origin fix/ELWP-12732
+git ci "fix(console): ELWP-12732 banner type cannot contain special characters"
+git ci "fix(console): ELWP-12732 banner type cannot contain special character"
+git co -b "fix/ELWP-12732"
+git reset --hard 2fb54de0
+git co bugfix/ELWP-12684-toast-interaction-available-during-noti
+git fetch origin
+git ps origin fix/ELWP-12737
+git ci "fix(console): sidebar missing condition enable edit component"
+git co fix/ELWP-12737
+git co -b "fix/ELWP-12720"
+git ci "fix(ui-block): ELWP-12737 popover hover instead of click"
+git ci "fix(ui-block): ELWP-12737 popover hovergit st"
+git co -b "fix/ELWP-12737"
+git ci "fix(console): ELWP-12738" --no-verify
+git co fix/ELWP-12738
+git ps origin fix/refactor-sidebar-logic -f
+git ci "fix(console): site basic form addition mimetype favicon"
+git co fix/refactor-sidebar-logic
+git co -b "fix/ELWP-12738"
+git ps origin fix/ELWP-12647
+git co fix/ELWP-12647
+git ps origin fix/refactor-sidebar-logic
+git ci "feat(console): implenment global not found & error boundary page"
+git ci "refactor(console): sidebar logic & naming"
+git restore --staged apps/server/.env.example
+git co -b "fix/refactor-sidebar-logic"
+cd..
+cd apps/server/q
+git ci "fix(ui-block): rollup content intro auto slide"
+git ci "fix(ui-block): ELWP-12647 content intro MO background position"
+git co -b fix/ELWP-12647
+git ci "fix(console): ELWP-12608 active project from last access"
+git co ELWP-12608
+git co -b "fix/ELWP-12608"
+ig tst
+git stash -u -m "debug request api unthorize but response 500"
+docker compose up
+vi docker-compose.yml
+mv docker-compose.yaml Dockerfile
+vi Dockerfile
+vi docker-compose.yaml
+vi server.js
+touch docker-compose.yaml
+git ps origin fix/ELWP-12606 -f
+git ps origin fix/ELWP-12606
+git ci "fix(console): ELWP-12606 enable lnb menu & validate before route access"
+git ci "fix(console): ELWP-12606 enable lnb menu & validate data before route access"
+git ci "fix(console): add util ensure route access"
+git ci "feat(ui-block): export type components"
+git reset ce3984c1
+git ps origin fix/ELWP-12606-bk
+git co -b "fix/ELWP-12606-bk"
+git ci "feat(console): pre-process validate data before go in route" --no-verify
+git ci "fix(console): ELWP-12606 add protected route" --no-verify
+rm -rf ./*
+rm -rf ./
+killall waybar && hyprctl dispatch exec waybar
+code waybar/
+nm-applet
+yay nm-connection-editor
+yay network-manager-applet
+yay  networkmanager
+nmtui
+networkmanager
+git stash -u -m "vite proxy storybook bulletin"
+history | peco
+git co fix/ELWP-12606
+git co chore/style
+git co fix/NEWSROOM-218
+git ps origin fix/ELWP-12638
+git ci "fix(server): docker redis not startup with computer"
+git add apps/console/src/app/layouts/ui/switch-language-btn/switch-language-btn.ui.tsx
+git ci "fix(console): ELWP-12638 switch language navigate keep search params"
+git ci
+docker compose ps
+docker compose down -
+git co -b "fix/ELWP-12638"
+git config set advice.skippedCherryPicks false
+git config set advice.skippedCherryPicks
+git pull -rebase
+git ci "fix(sidebar): missing active mode nav menu"
+git co -b "fix/ELWP-12606"
+git co fix/ELWP-12612-content-banner-table-header-content
+git cherry-pick f9d4e94f952fcd1797908d9da588ba8981b202ec
+git co  develop
+git rebase --abort
+git ci "fix(console): ELWP-12612 content banner table not match"
+yarn dev
+git ps origin fix/NEWSROOM-136
+git ci "fix(community lib): NEWSROOM-136 pageNo next param based on last param"
+git add lib
+git add src/shared/api/community/community.lib.ts
+git co -b "fix/NEWSROOM-136"
+git ps origin main
+git ci "feat: test2"
+git ci "feat: etst 1"
+cat ~/.ssh/id_ed25519.pub | fish_clipboard_copy
+git ci "feat:test"
+bun dev --host
+git co fix/elwp-12603-project-name-based-locale
+git t
+git co -b "fix/ELWP-12612-content-banner-table-header-content"
+git ps origin fix/console-lnb-not-display-project-name
+git ci "fix(console): lnb not display project name"
+git co -b "fix/console-lnb-not-display-project-name"
+git co -b "fix(console): lnb not display project name"
+git co fix/ELWP-12601-lnb-is-narrowed
+git co fix/ELWP-12623
+git co fix/ELWP-12624
+pnpm run genereate
+git co fix/ELWP-12602
+git ps origin fix/ui-block-representative-visual-max-width -f
+git ps origin fix/ui-block-representative-visual-max-width
+git ci "feat(ui-block): add autod slide rollup content introduction"
+git ci "fix(ui-block): style representative visual max width"
+git co -b "fix/ui-block-representative-visual-max-width"
+git -u
+git ps origin hotfix/content-detail-table-not-show-scrollbar
+git ci "fix(content-detail): style table not show scrollbar"
+git add src/core/molecule/content-detail/content-detail.module.css
+git co -b "hotfix/content-detail-table-not-show-scrollbar"
+git ps origin fix/login-auth-code-invalid
+git ci "fix(server): add log debug nxas service"
+git ci "fix(server): use fetch user profile instead of lastValueFrom"
+git stg
+git ps origin fix/login-auth-code-invalid -f
+git ci "fix(server): add fetch debug login auth code invalid"
+git ci "fix(server): fetch debug login auth code invalid"
+git pull origin dev --rebase
+curl --location 'https://dev-nxas.nexon.com/api/auth/token' \
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--header 'Authorization: Bearer {{authToken}}' \
+--data-urlencode 'code=C-4nMJhvYRKiWiZhyIodsQoRREssVUyDD14lLfY23F8ZxQXKon1Cy9bS8hBa20_BbqCooKCK7Gt0zjkZNMYS-vBw5PCW1A8KikUir_KFp3kKrvqhqD2nLj3dgEeGAO3utcb8Wn8ElkY2usaNjHSIB3L5WLUIHkkswEVLYvJ5_rFq2zLAXPB1iF-s_yQvhM78' \
+--data-urlencode 'grant_type=authorization_code' \
+--data-urlencode 'redirect_uri=https://dev-nwb.nexon.co.kr/api/v1/auth/login/callback' \
+--data-urlencode 'client_id=5df1b19e-7a80-445f-a8e8-444904dfdbcf'
+yarn
+git ci "fix(server): add log to debug login auth code invalid"
+git co -b "fix/login-auth-code-invalid"
+ghq get ssh://git@gitlab.nexon.com:8022/corporation/blog/blog-frontend.git
+git ps origin fix/NEWSROOM-216
+git ci "fix(content detail): style table max width full"
+git co -b "fix/NEWSROOM-216"
+git ps origin fix/NEWSROOM-215
+git ci "fix(tag list): NEWSROOM-215 not go to search page"
+git co -b "fix/NEWSROOM-215"
+git co fix/NEWSROOM-209
+git fetch origin fix/NEWSROOM-209
+pnpm run db:migrate
+git ps origin fix/NEWSROOM-211 -f
+git ps origin fix/NEWSROOM-211
+git ci "fix(attachment action panel): NEWSROOM-211 line break when long text"
+git co -b "fix/NEWSROOM-211"
+git co -b "fix/NEWSROOM-212"
+git ps origin fix/NEWSROOM-212 -f
+git ps origin fix/NEWSROOM-212
+git ci "fix(useTouchOutside): support add many events"
+git ps origin fix/NEWSROOM-150-file-size-format -f
+git ps origin fix/NEWSROOM-150-file-size-format
+git ci "fix(attachment action panel): format file size mobile"
+git co -b "fix/NEWSROOM-150-file-size-format"
+git co -b "fix/NEWSROOM-150"
+git ps origin fix/NEWSROOM-168-line-height-tablet
+git ci "fix(search content): line height result tablet"
+git co -b "fix/NEWSROOM-168-line-height-tablet"
+git co fix/NEWSROOM-146
+git co fix/NEWSROOM-205_image_library_compressed
+git co fix/NEWSROOM-201_back_button_library_page
+git co fix/NEWSROOM-198_download_button
+git co fix/NEWSROOM-168
+git ps origin hotfix/latest-press-release
+git ci "fix(latest press release): title line break"
+git co -b "hotfix/latest-press-release"
+git ps origin fix/NEWSROOM-168
+git ci "fix(search content): NEWSROOM-168 NEWSROOM-126 line spacing, banner height"
+git ps origin fix/NEWSROOM-197 -f
+git co fix/NEWSROOM-197
+git stash apply stash@\{2\}
+git co -b "fix/NEWSROOM-168"
+git co fix/newsroom-168-line-height-search-content
+git co fix/NEWSROOM-186
+git co fix/NEWSROOM-115-content-detail-banner-spacing-large-breakpoint
+git ps origin fix/NEWSROOM-197
+git ci "fix(search content): NEWSROOM-197 filtered search param"
+git co -b "fix/NEWSROOM-197"
+git ps origin fix/NEWSROOM-107
+git ci "fix(latest press release): NEWSROOM-107 more icon svg"
+git co -b "fix/NEWSROOM-107"
+git ps origin fix/NEWSROOM-195-latest-press-release-date-title
+git ci "fix(latest press release): NEWSROOM-195 style date title"
+git co -b fix/NEWSROOM-195-latest-press-release-date-title origin/develop
+git co -b fix/NEWSROOM-195-latest-press-release-date-title origin/develop w
+git branch -D fix/NEWSROOM-195-latest-press-release-date-title
+git co -b fix/NEWSROOM-195-latest-press-release-date-title
+git ps origin fix/NEWSROOM-107-lastest-press-release-color -f
+git ps origin fix/NEWSROOM-107-lastest-press-release-color
+git ci "fix(latest press release): more icon svg"
+git co -b "fix/NEWSROOM-107-lastest-press-release-color"
+git restore --staged
+git stash popo
+git stash -u -m 'bug'
+git reset 6ea7c23
+git ll1
+git reset --hard f9e323b
+git reset --hard 198d655
+git bisect reset
+git bisect good
+git bisect bad
+git bisect bad HEAD
+git bisect good 0193fc2
+git bisect start
+git stash -u -m "search content"
+git ps origin hotfix/remove-ui-block-content-introduction-thumbnailUrl -f
+git ci "fix(ui-block): show left slide rollup content intro when only 1 slide"
+pnpm run build --cache=
+pnpm run dev --filter console --cache=
+git ci "fix(ui-block): show right slide rollup content intro when only 1 slide"
+git ci "fix(ui-block): show right slide rollup content introduction when only 1 slide"
+git ps origin hotfix/remove-ui-block-content-introduction-thumbnailUrl
+git ci "fix(ui-block): remove field thumbnailUrl content introduction"
+git co -b "hotfix/remove-ui-block-content-introduction-thumbnailUrl"
+git ps origin fix/NEWSROOM-128-mobile-empty-icon-incorrect -f
+git ci "fix(empty data): NEWSROOM-128 mobile empty icon size"
+git co fix/NEWSROOM-128-mobile-empty-icon-incorrect
+git pull origin develop -rebase
+git ps origin fix/NEWSROOM-128-mobile-empty-icon-incorrect
+git ci "fix(error page): NEWSROOM-128 mobile error, empty icon size"
+git co -b "fix/NEWSROOM-128-mobile-empty-icon-incorrect"
+git ps origin fix/NEWSROOM-68-navigation-menu-touch-device-can-not-click
+git ci "fix(nagivation-menu): allow touch device click news nexon menu"
+git branch -m "fix/NEWSROOM-68-navigation-menu-touch-device-can-not-click"
+git co -b "fix/NEWSROOM-68-navigation-menu-touch-device-can-not-cck"
+git ps origin fix/NEWSROOM-115-content-detail-banner-spacing-large-breakpoint
+git ci "fix(detail banner): NEWSROOM-115 spacing top & bottom"
+git co -b "fix/NEWSROOM-115-content-detail-banner-spacing-large-breakpoint"
+git ps origin fix/NEWSROOM-82-avoid-persist-search-param-tag-link
+git ci "fix(search tag): NEWSROOM-82 avoid persist previous search params"
+git branch -m "fix/NEWSROOM-82-avoid-persist-search-param-tag-link"
+git stash -u -m NEWSROOM-82
+git reset 209bfc7
+git stash -u -m NEWSROOM-115
+git reset ff15dce
+git stash -u -m NEWSROOM-68
+git stash -u NEWSROOM-68
+git co fix/NEWSROOM-165-content-detail-spacing
+git diff
+pnpm  turbo run lint style format lint:architecture check-types circular --affected --output-logs=errors-only
+git ps origin feat/drilling-base-url-props-board-ui-block
+git ci "feat(ui-block,console): drilling base url props board ui block"
+git co -b "feat/drilling-base-url-props-board-ui-block"
+pnpm run build:dev && pnpm run preview --port 3000
+pnpm run build:dev --cache=
+pnpm run build && pnpm run preview --port 3000
+pnpm run preview --port 3000
+pnpm run preview
+pnpm run previ
+gi tsty
+git co fix/NEWSROOM-125
+git co -b "fix/NEWSROOM-165-content-detail-spacing"
+git ps origin fix/NEWSROOM-150 -f
+git pull origin fix/NEWSROOM-150 --rebase
+git co fix/NEWSROOM-150
+git ps origin fix/newsroom-168-line-height-search-content -f
+git co fix/NEWSROOM-166-reduce-search-layer-height
+git ps origin fix/NEWSROOM-114 -f
+git co fix/NEWSROOM-114
+git co -b "fix/NEWSROOM-104-style-rounding-nexon-now-banner"
+git co fix/NEWSROOM-97-restrict-animation-area-of-mainscreen-image
+git ps origin fix/NEWSROOM-163-update-text-shadow -f
+git co fix/NEWSROOM-163-update-text-shadow
+git co fix/newsroom-74-display-download-images-button
+git co fix/NEWSROOM-159
+git co fix/NEWSROOM-137_scroll_down_mobile
+git co fix/NEWSROOM-161-main-page-thumbnail-spacing
+git ps origin fix/NEWSROOM-69 -f
+git add src/core/organism/footer.tsx
+git co fix/NEWSROOM-69
+git co fix/NEWSROOM-91-update-x-icon-svg
+git pull origin fix/NEWSROOM-147 --rebase
+git co fix/NEWSROOM-147
+git co origin/fix/NEWSROOM-147
+git co fix/NEWSROOM-118
+git co fix/NEWSROOM-96_button_carousel
+git co fix/NEWSROOM-134
+git co fix/NEWSROOM-131
+git co fix/NEWSROOM-140
+git reset 118234a
+git co fix/NEWSROOM-105
+git fetch origin fix/NEWSROOM-105
+git co origin/fix/NEWSROOM-105
+git co origin fix/NEWSROOM-105
+git co fix/NEWSROOM-145
+git co fix/NEWSROOM-102
+git co fix/NEWSROOM-130
+git cherry-pick 069a6fe8127b19e165ee4d8296e181f44cccc76c
+git cherry-pick --continue
+git cherry-pick continue
+git cherry-pick b5be8884562d0c5ecdc89abb91845a5edfe4f1f8
+git ps origin fix/NEWSROOM-111-thumbnail-rounding-disappear-when-hover-articel-card -f
+git ps origin fix/NEWSROOM-111-thumbnail-rounding-disappear-when-hover-articel-card
+git ci "fix(content detail): inside game, search, press center button style"
+git ci "fix(navigation): NEWSROOM-155 popup align, nav nexon news shifted when open"
+git ci "fix(header, nagigation): NEWSROOM-84 spacing nav btn nexon news, hover color"
+git ci "fix(article, library list): NEWSROOM-113 missing bottom border in mobile"
+git ci "fix(article-card): NEWSROOM-111 hover losing rouding"
+git co -b "fix/NEWSROOM-111-thumbnail-rounding-disappear-when-hover-articel-card"
+yay -R hyprgraphics-git
+yay -S hyprgraphics
+yay -R hyprgraphics
+sudo pacman -Syyu
+sudo pacman -Syys
+sudo pacman -Suys
+git ps origin feat/ui-block-rollup-content-introduction -f
+git ps origin feat/ui-block-rollup-content-introduction
+git ci "feat(ui-block): implement type rollup content introduction"
+git reset 21d8d3c7
+gi ts
+git co feat/ui-block-rollup-content-introduction
+git ps origin fix/server-request-token-nxas-failed -f
+git pull origin develop --rebs
+sudo git pull origin develop --rebase
+cat id_ed25519.pub | fish_clipboard_copy
+ssh-keygen
+cat known_hosts
+cd ~/.ssh/
+git ps origin fix/server-request-token-nxas-failed
+git ci "chore(server): remove log debug login nxas"
+git reset 2935b380
+git ci "chore(server): add log debug get profile & token nxas" --no-verify
+git ci "chore(server): add log to debug request token nxas failed"
+git co -b "fix/server-request-token-nxas-failed"
+git stash -ui
+git ps origin fix/server-login-cookie-config -f
+git ps origin fix/server-login-cookie-config
+git ci "fix(server): cookie state & token config"
+git ci "hotfix(server): cookie state & token config"
+git add apps/server/src/modules/identity/controllers/login.controller.ts
+git co -b "fix/server-login-cookie-config"
+git stash push apps/server/src/modules/identity/controllers/login.controller.ts
+bun start:dev
+btop
+yay -Scc
+yay -S brave-bin
+sudo pacman -S hyprgraphics
+sudo pacman -R hyprgraphics-git
+sudo pacman -Syyu hyprutils
+sudo pacman -Rdd hyprutils && pacman -S hyprutils-git
+sudo pacman -Syus
+yay hyprutils
+yay hyprgraphics-git
+which hyprgraphics-git
+which hyprutils
+sudo pacman -R hyprgraphics hyprutils
+hyprland -h
+sudo pacman -S hyprutils-git
+pacman -Syys
+waypaper --restore
+code .config/waypaper/
+git ps origin fix/console-login
+git ci "fix(server): nxas, rolestore uri config missing slash in scheme"
+git co fix/console-login
+git ps origin main -f
+bun run build && bun run preview --port 5173
+bun run build && bun run preview
+git ci "test: testing direct url" --no-verify
+git ci "feat(console): add testing ways to login sso"
+pnpm run dev --host
+pnpm run dev --filter console --host
+sudo nano /etc/hosts
+git cherry-pick 598bc232
+git co -b "fix/console-login"
+git ci "feat(ui-block): rollup" --no-verify
+pnpm run dev --filter storybook --cache=
+yay -S mplayer
+yay -S vlc-plugin-ffmpeg
+yay -S -S vlc-plugin-ffmpeg
+yay mvc
+yay vlc
+du -hs ./dist
+bun run build
+du -hs ./build
+for file in *.*; if not test -d "$file"; set filename (string split '.' $file | head -n 1); set extension (string split '.' $file | tail -n 1); mkdir -p "$filename"; mv "$file" "$filename/index.$extension"; end; end
+
+cd src/shared/ui/
+bunx --bun shadcn@latest add dialog
+bunx --bun shadcn@latest add button-group
+bunx --bun shadcn@latest add card
+bunx --bun shadcn@latest init
+bun add tailwindcss @tailwindcss/vite
+bun add -D @types/node
+bun i tailwindcss @tailwindcss/vite
+bun i
+git ci "feat(console): storing siteId when available"
+git co -b "feat/console"
+git co -b "feat/ui-block-rollup-content-introduction"
+git ps origin feat/implement-ui-block-slide-content-introduction -f
+gitr add .
+git ps origin feat/implement-ui-block-slide-content-introduction
+git ci "feat(ui-block): implement type slide content introduction"
+git restore --staged apps/storybook/.storybook/preview.tsx
+git reset 5e3fb78b
+git co feat/implement-ui-block-slide-content-introduction
+git ps origin hotfix/create-project-missing-invalidate-project-list
+git ci "fix(console): create project missing invalidate project list"
+git co -b "hotfix/create-project-missing-invalidate-project-list"
+bun dev --port 4000
+code .config/hypr/
+git git st
+git restore packages/ui-block/src/components/content-introduction/slide-type/styles.module.css
+git stash po
+git co feat/implement-console-language-selection
+ig ts
+cd packages/preset/
+code ~/.config/hypr/conf/decorations.conf
+git ps origin feat/design-skin-update-representative-visual-schema
+git ci "feat(preset): update representative visual schema"
+git co -b "feat/design-skin-update-representative-visual-schema"
+cd .
+docker-compose down --remove-orphans
+echo e-WV6UP13XRSRX9RScke | docker login registry-gitlab.nexon.com -u thaison --password-stdin
+docker login registry-gitlab.nexon.com
+cd apps/server/w
+git co feat/update-ui-block-represetative-visual-schema
+git pull origin feat/update-ui-block-represetative-visual-schema --rebase
+git co feat/design-skin
+git ps origin feat/update-ui-block-represetative-visual-schema -f
+git ps origin feat/implement-console-language-selection -f
+git fetch origin feat/design-skin
+git add .g
+git ps origin feat/update-ui-block-represetative-visual-schema
+git ci "feat(ui-block): update representative visual schema"
+git ps origin dialog
+git ci "feat(dialog): dialog" --no-verify
+git co -b "dialog"
+git co -b "feat/update-ui-block-represetative-visual-schema"
+git ps origin feat/implement-console-language-selection
+git ci "fix(ui-block): content intro type scrollable style"
+git ci "feat(console): implement lang switch dropdown"
+pnpm run dev --filder storybook
+git co -b "feat/implement-console-language-selection"
+curl http://local.test-domain:3000/ko/dashboard
+code /etc/hosts
+bun run start:dev
+git ps origin feat/console-storing-siteId -f
+git pull origin feat/console-storing-siteId --rebase
+git ci "feat(console): handle storing siteId for sidebar navigating"
+git reset 2576be49
+git ps origin feat/console-storing-siteId
+git co feat/console-storing-siteId
+git ps origin hotfix/looping-login-with-invalid-token -f
+git ps origin hotfix/looping-login-with-invalid-token
+git ci "fix(console): prevent request project list when unauthorize"
+git add apps/console/src/widgets/project-list/ui/project-list.ui.tsx
+git co hotfix/looping-login-with-invalid-token
+git restore apps/server/src/modules/
+git fetch origin feat/map-ui-block-to-dynamic-form
+git co -b "feat/console-storing-siteId"
+git ci "fix(server): add validate access token when access login endpoint"
+git reflot
+git co -b "hotfix/looping-login-with-invalid-token"
+cd
+pnpm run format
+git ps origin fix/header
+git branch -m "fix/header"
+sgit st
+pnpm drizzle-push
+git ci "fix(console): seperate create/edit basic site information"
+git stash -u --keep-index -m "language switch"
+git ci "fix(console): fallback header project list, hide sidebar when unselected"
+git ci "
+"
+git ci "feat(console): add query devtool and use queryclient config instead"
+git ci "feat(console): add tanstack query devtool and use queryclient config instead"
+pnpm add -D @tanstack/react-query-devtools
+git reset e5f58b15
+git ci "fix: header" --no-verify
+git co -b "fix/header"
+git ci "feat: slide type" --no-verify
+killall pavucontrol
+git co feat/implement-ui-block-content-introduction-scrollable
+pnpm i embla-carousel embla-carousel-autoplay embla-carousel-react
+pnpm i embla-carousel
+git co -b "feat/implement-ui-block-slide-content-introduction"
+git ps origin feat/implement-ui-block-content-introduction-scrollable -f
+igt cas
+git add sty
+git ps origin feat/implement-ui-block-content-introduction-scrollable
+git ps origin feat/implement-ui-block-content-introduction-scrollable =f
+git ci "feat(ui-block): implement content introduction scrollable"
+git stash op
+lsof -i:9009
+kill -9 1076693
+netstat
+netstate
+kill $(lsof -t -i:9009)
+kill $(lsof -t -i:8080)
+cd apps/storybook/
+git co feat/ui-block-visual
+git ps origin feat/ui-block-visual -f
+git oc -
+pnpm add dompurify
+gity st
+igt s
+sudo sysctl --system
+sysctl --system
+systemctl --system
+systemctl enable bluetooth.service
+systemctl start bluetooth.service
+bluetoothctl
+git co -b "feat/implement-ui-block-content-introduction-scrollable"
+git oc dew
+git ci "feat(ui-block): implement representative visual"
+git reset 6097bd90
+pnpm run lint:architecture
+git co feat/update-dashboard-create-project
+git fetch origin feat/update-dashboard-create-project
+git restore ../../apps/console/src/app/router/routes/\$locale/_auth/route.tsx
+git ps origin chore/generate-nexon-icons-width-height-based-on-viewbox
+git ci "chore(nexon-icons): re-generate width height based on viewbox"
+git co -b "chore/generate-nexon-icons-width-height-based-on-viewbox"
+pnpm run gen:svg
+cd packages/nexon-icons/
+pnpm run start:dev
+pnpm install dotenv
+cd test--test/
+mkdir test--test
+cd Per/
+cd pr
+cd workspace/
+cd apps/page-builder-api/
+buin dev
+git co feat/bulletin-board-ui-block
+git fetch origin feat/bulletin-board-ui-block
+code ~/.config/hypr/conf/
+code ~/
+git ps origin feat/console-implement-authenticate-and-devcode -f
+git pull origin develop --reabse
+git co feat/console-implement-authenticate-and-devcode
+pnpm  drizzle-kit push
+pnpm run drizzle-kit push
+git pull origin develop --rebnase
+git ci "feat(ui-block): visual" --no-verify
+thunar .
+git co feat/add-ui-block-footer-type-b
+git fetch origin feat/add-ui-block-footer-type-b
+git fetch origin Done in 5.1s
+git co d
+bun run dev --port 4000
+git ps origin fix/search-page-show-all-tab-loading
+git ci "fix(search page): display all tab loading"
+git co -b "fix/search-page-show-all-tab-loading"
+git co feat/page-builder-preview-drag-drop
+git fetch origin feat/page-builder-preview-drag-drop
+git pull origin feat/page-builder-preview-drag-drop
+git co -b "feat/ui-block-visual"
+git ci "feat(asdf): test"
+git co feat/create-banner-type
+git co decodeSync
+git fetch origin feat/create-banner-type
+git co feat/add-ui-block-footer-type-a-basic
+git fetch origin feat/add-ui-block-footer-type-a-basic
+git ci "feat(console,server): handle logout server & sso"
+git ci "feat(console): restore auth store utils"
+git ci "feat(console,server): login via sdk, login devmode, remove scope param"
+git reset 28e75f0a
+git reset ac819ad4
+git il1l
+pnpm add i18next-http-backend
+git stash -iu
+git stash -u -m "handle authenticate access route"
+git ps origin feat/console-implement-authenticate-and-devcode
+git ci "feat(console): add button login dev mode"
+git ci "fix(server): login controller missing sdk dto schema"
+pnpm run test --filter server
+pnpm iu
+bun add class-validator class-transformer
+bun add @nestjs/swagger
+ghq get git@github.com:lazarus2019/nestjs-minimalist-product.git
+npx prisma generate
+prisma generate
+pnpm add @nestjs/swagger
+
+yay edge microsoft
+export NODE_TLS_REJECT_UNAUTHORIZED=0
+yay edge
+npx openapi-to-effect gen ./node_modules/server/swagger/openapi.json ./src/schema
+openapi-to-effect gen ./node_modules/server/swagger/openapi.json ./src/schema
+l;s
+cd packages/sdk/
+git ci "feat(console): handle logout server & sso"
+git ci "feat(console,server): login via sdk, remove scope param"
+git reset 0de95c8e
+git ci "feat(console): temp" --no-verify
+git reset 342ce21b
+git ps origin feat/implement-search-page -f
+ghq get ssh://git@gitlab.nexon.com:8022/analysis-support/tfdc/tfdc_be.git
+ghq get ssh://git@gitlab.nexon.com:8022/analysis-support/gamescale/developer/developer-frontend.git
+git co feat/newsroom-55-build-annoucement-popup-ui
+git fetch origin feat/newsroom-55-build-annoucement-popup-ui
+git co feat/implement-search-page
+networkmanager_dmenu
+yay network manager
+yay networkmanager-dmenu-git
+sudo cat /etc/sysctl.d/local.conf
+git co feat/ui-block-content-introduction-layer
+
+git fetch origin feat/ui-block-content-introduction-layer
+
+git reset 59698fe2
+git ps origin feat/implement-logout-service -f
+git reset --hard fd766a8b
+git reset --hrad fd766a8b
+git git clean -fd
+ts t
+git co feat/implement-logout-service
+git ci "feat(console): test" --no-verify
+git ci "feat(console): test" --no-verifu
+sudo cat ~/.local/share/applications/mimeapps.list
+cat ~/.local/share/applications/mimeapps.list | less
+xdg-mime --help
+xdg-mime query default
+git ci "feat(console): handle authenticate & devcode" --no-verify
+git co -b feat/console-implement-authenticate-and-devcode
+git branch -D feat/console-implement-authenticate-and-devcode
+git brand -D feat/console-implement-authenticate-and-devcode
+curl -v --location 'http://dev1-admin.gamescale.io:3001/api/v1/auth/v1/login/brandingsite-admin/callback?originalUrl=https%3A%2F%2Fdev1-admin.gamescale.io%3A3000%2Fko&code=N9vdPaX_t5P3IcL5zcrhPcEHVT4MJUwh438bPLRj37lz_R0_-4zo7l-qPvIdSVuCZ1tFwtx2_9QclIvPZp0NMKsL0KdgIdwVLMWDBXoem3SxRMAoM7uhyS3PXa5Nw42lpQtDR1kBF-A18I6AIaslcrvsHfL5Z_7mc4UEa3uWCEkpsXXZ8QnIYE4jJHRjrVXU&state=p36t72pf3zn0c6i0vdxrvah' \
+--header 'Upgrade-Insecure-Requests: 1' \
+--header 'Cookie: token=dummy-token'
+git reset e92f9850
+yay brave
+git ci "feat(console): fetch user info instead of mock"
+c ..
+git ci "feat(console): implement authentication and devcode" --no-verify
+tigt st
+code .config
+killall waypaper
+yarn && docker compose down -v && docker compose up -d && yarn seed && yarn dev
+docker compose donw -v
+docker compose donw -
+git log --oneline
+git fetch -tp
+git reset --hard 691ef34
+git l`1l
+git wst
+git ci "feat(page): implement search page"
+git reset 2bbb7ff
+git ps origin feat/implement-search-page
+git co -b "feat/implement-search-page"
+yay global protect
+mv ~/Downloads/illust.svg ./src/shared/asset/svg/
+y-arn
+git restore apps/console/src/pages/dashboard/ui/dashboard.ui.tsx
+git co feat/newsroom-25-building-article-list-press-room
+git fetch origin feat/newsroom-25-building-article-list-press-room
+git co origin/feat/newsroom-25-building-article-list-press-room
+git cherry-pick 7f6430b72d8bf8d423636666ed9f2e150d1dad12
+git reset --hard 687da28
+git co bugfix/sdk-generate-swagger
+alias git "echo 'ehehehe'"
+rm -rf node_modules/ pnpm-lock.yaml
+git cherry-pick 16dc1ae
+git 1
+git fetch origin bugfix/sdk-generate-swagger
+git co -b "feat/console-implement-authenticate-and-devcode"
+pnpm run  is not supported resolving ES modules imported from /home/thaison/workspace/gitlab.nexon.com/analysis-support/gameweb/gameweb/packages/nest-core/src/index.ts
+code .config/hypr/conf/windowrules.conf
+code .config/hypr/conf/monitors.conf
+rm -rf node_modules/
+rm -rf pnpm-lock.yaml
+git add apps/
+git status
+git add apps/server/src/modules/identity/application/__tests__/login-sso.handler.spec.ts
+git ps origin feat/implement-logout-service
+git add apps/server/src/modules/identity/guards/auth.guard.ts
+git add apps/server/src/modules/identity/controllers/logout.controller.ts
+git ci "feat(server): implement devcode"
+git add apps/server/src/modules/identity/controllers/dto/request/login-sso.request.dto.ts
+git ci "feat(server): validate token in blacklist"
+git ci "feat(server): implement logout service"
+git add apps/server/src/modules/identity/application/commands/logout-user/logout-user.command.ts
+opencode
+opencode auth login
+curl -fsSL https://opencode.ai/install | bash
+code ~/Downloads/login-development.ts
+git co fix/newsroom-47-update-integreate-api-nexon-now-main-page
+git fetch origin fix/newsroom-47-update-integreate-api-nexon-now-main-page
+git co feat/error-pages
+ghq get ssh://git@gitlab.nexon.com:8022/analysis-support/internal-asset/internal-assets-admin-be.git
+git reset 31d34f6
+git reset 576d873
+git ca --no-edit --no-verify
+git ci "feat: rest" --no-verify
+ghq get ssh://git@gitlab.nexon.com:8022/analysis-support/bws/bws-backend.git
+sudo nano hosts
+code hosts
+git branch -m "feat/implement-logout-service"
+git co feat/asdfjkasld
+git co -b "feat/asdfjkasld"
+npm run dev
+code test-nexonui/
+cd ~/workspace/Per/
+pnpm format:fix
+git co feat/implement-auth-service-session-redis
+giut st
+npm install @nxui/core
+npm i
+cat .npmrc
+echo "@nxui:registry=https://nexus.nexon.com/repository/nxui-npm-release/" >> .npmrc
+cd test-nexonui/
+npm create vite test-nexonui  --template react-ts
+npm create vite learn-tanstack-router --template react-ts
+git co feat/table
+git fetch origin feat/table
+gi st
+npm install @nxui/components @nxui/icons
+git ps origin feat/implement-auth-service -f
+gitg add .
+pnpm run test
+git co feat/implement-auth-service
+git reset --hard 54d6c6a
+git ci "feat: test"
+git reset 54d6c6a
+pnpm tsc
+git co feat/add-ui-block
+git fetch origin feat/add-ui-block
+pnpm run test --filter server -- --watch
+pnpm run test --filter server --watch
+code ~/.config/hypr/conf/keybindings.conf
+git ps origin feat/implement-auth-service-session-redis
+git co -b feat/implement-auth-service-session-redis
+ghq get ssh://git@gitlab.nexon.com:8022/analysis-support/gamescaletms/nexontranslatebe.git
+git ps origin feat/console-authenticate-setup -f
+git co feat/console-authenticate-setup
+cleasr
+yarn tsc
+pnpm run tsc
+pnpm run tsc --filter console
+pnpm run tsc --filter conslle
+unzip inside-game-images\ \(3\).zip
+cd Downloads/
+git co feat/newsroom-38-build-post-detail-content
+git fetch origin feat/newsroom-38-build-post-detail-content
+git co feat/newsroom-41-update-gnb-search-layer
+git fetch origin feat/newsroom-41-update-gnb-search-layer
+rm node_modules/w
+cat ~/.config/fish/config.fish | less
+nix-env --install direnv
+cd kr-newsroom-frontend/
+direnv allow
+direnv reload
+sudo curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | sh -s -- install
+curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | sh -s -- install
+code README.md
+git co feat/newsroom-40-building-article-list-inside-game
+git fetch origin feat/newsroom-40-building-article-list-inside-game
+git restore --staged apps/console/src/app/providers/auth.provider.tsx
+pnpm run test --filter serverw
+gcode .
+git ps origin feat/implement-auth-service -df
+git ci "feat(server): implement auth service with state"
+git reset 060891e
+git ci "feat(server): implement auth service"
+git ps origin feat/implement-auth-service
+git ps origin feat/console-authenticate-setup
+git ci "refactor(console): move auth context to zustand store"
+gijt st
+git pull origin feat/console-authenticate-setup --rebase
+git rt
+killall spotify
+cd ../../
+docker exec -it gwt-redis-node-0  redis-cli -c -h 127.0.0.1 -p 6379
+docker exec -it redis-cli -c -h 127.0.0.1 -p 6379
+git co console
+docker exec -it gwt-redis-node-0 redis-cli -c
+docker exec -it gwt-redis-node-1 redis-cli -c
+docker exec -it gwt-redis-node-1 redis-cli
+docker exec -it gwt-redis-node-0 redis-cli
+yay redis cli
+redis-cli
+make redis-cli
+docker exec -it gwt-redis-node-0 bash
+docker exec -it redis-node-1 bash
+docker coompose up -d
+git ci "feat(server): save state and session in redis" --no-verify
+which bash
+docker exec -it redis-node-2 bash
+docker exec -it redis-node-1
+bun add @tanstack/react-query @tanstack/react-query-devtools
+curl http://localhost:3001/api/docs
+pnpm add -D @types/express-session
+pnpm add express-session
+code .config/hypr/hyprpaper.conf
+gity l1l
+git co feat/build-text-field-nexon-console
+git ci "feat(server): implement auth service" --no-verify
+git restore --staged w.
+git stash apply stash@\{3\}
+git co -b "feat/implement-auth-service"
+git ci "feat(console): setup authenticate provider"
+git stash -u --keep-index -m "setup env console"
+git ci "feat(console): move footer & header to base layout"
+git add apps/console/src/app/layouts/ui/header.ui.tsx
+git reset 05488fc
+bun add axios
+git restore apps/console/src/pages/dashboard/ui/wecome-banner/welcome-banner.ui.tsx
+git co feat/build-dashboard-page-welcome-banner
+git fetch origin feat/build-dashboard-page-welcome-banner
+git stash push -u apps/server/src/modules/identity/controllers/auth/
+git stash -u apps/server/src/modules/identity/controllers/auth/
+git stash -h
+git stash -u add apps/server/src/modules/identity/controllers/auth/.
+git stash -u -m "authentication"
+rm -rf node_modules dist/
+git restore src/infrastructure/configuration/redis.config.ts
+code ~/Downloads/env-admin-sample
+curl --location 'http://dev1-admin.gamescale.io:3001/api/v1/auth/v1/login/brandingsite-admin/callback?originalUrl=https%3A%2F%2Fdev1-admin.gamescale.io%3A3000%2Fko&code=N9vdPaX_t5P3IcL5zcrhPcEHVT4MJUwh438bPLRj37lz_R0_-4zo7l-qPvIdSVuCZ1tFwtx2_9QclIvPZp0NMKsL0KdgIdwVLMWDBXoem3SxRMAoM7uhyS3PXa5Nw42lpQtDR1kBF-A18I6AIaslcrvsHfL5Z_7mc4UEa3uWCEkpsXXZ8QnIYE4jJHRjrVXU&state=p36t72pf3zn0c6i0vdxrvah' \
+--header 'Upgrade-Insecure-Requests: 1' \
+--header 'Cookie: token=dummy-token'
+dev
+curl http://localhost:3001/api/auth/v1/login/brandingsite-admin/callback
+curl http://dev1-admin.gamescale.io:3001/api/auth/v1/login/brandingsite-admin/callback
+curl http://dev1-admin.gamescale.io/api/auth/v1/login/brandingsite-admin/callback
+curl http://localhost:3001/api/v1
+cd ../
+pnpm add -D @vitejs/plugin-basic-ssl
+pnpm add -D vite-plugin-basic-ssl
+pnpm add -D vite-plugin-basic-ssl
+
+run dev
+bun run dev
+curl https://dev1-admin.gamescale.io/api/auth/v1/login/brandingsite-admin/callback
+curl http://localhost:3001
+docker logs server-redis-cluster-setup-1
+docker logs redis-node-1
+curl http://localhost:3001/api
+docker logs redis
+doc
+cd server/
+pnpm run dev --filter server && pnpm run dev --filter console
+pnpm run dev --filter server console
+pnpm dev
+pnpm add -D vite-plugin-mkcert
+
+sudo nvim hosts
+sudo vim hosts
+sudo vi hosts
+git ps origin feat/implement-sidebar-console -f
+git co feat/implement-sidebar-console
+git ci "feat(console): setup authenticate" --no-verify
+git co -b "feat/console-authenticate-setup"
+git ci "fix(nexon-console): pagination test time limit"
+git restore --staged packages/nexon-console/.vitest/setup-vitest.ts
+git ci "feat(console): init routing and pages"
+git restore apps/console/src/pages/home-page/
+git restore --staged apps/console/src/pages/
+git restore  apps/console/src/widgets/.
+git restore  apps/console/src/features/
+git restore --staged apps/console/src/features/
+git restore --staged apps/console/src/widgets/.
+git restore apps/console/src/widgets/.
+git restore apps/console/src/widgets/*
+git reset f8c706b
+git co sidebar
+t st
+git clean fd
+code read
+git add apps/console/src/app/layouts/*
+git add apps/console/src/app/layouts/ui/base-layout.ui.tsx
+git reset c808e08
+gi ca
+git reset e7e4df8
+git restore --staged packages/nexon-console/src/components/pagination/pagination.test.tsx
+git restore --staged packages/nexon-console/src/components/pagination/pagination.test.tsx w
+pnpm run test --filter @gwt/nexon-console -- pagination
+git co feat/dialog
+git fetch origin feat/dialog
+yay ivanti
+pnpm lint:architecture
+git ci "refactor(console): seperate file base layoutasdasd"
+git ps origin feat/implement-sidebar-console
+git ci "refactor(console): seperate file base layout"
+git ci "feat(console): implement sidebar (lnb) ui"
+git add apps/console/src/widgets/sidebar/*
+git reset 0cb4ba6
+git ci "feat(console): implement sidebar ui"
+git ci "feat(nexon-icons): add list icon"
+mv ~/Downloads/u314.svg ./packages/nexon-icons/src/svgs/solid/
+pnpm gen:svg
+pnpm gen:svg --filter @get/nexon-icons
+mv ~/Downloads/normal_u314.svg ./packages/nexon-icons/src/svgs/solid/
+git reset 68839db
+ghq get ssh://git@gitlab.nexon.com:8022/analysis-support/sid/sid-fe.git
+cide ,
+ghq get ssh://git@gitlab.nexon.com:8022/analysis-support/gamescale/admin/gamescale-admin-backend.git
+git ps origin feat/setup-i18n
+git pull origin feat/setup-i18n --rebase
+git ci "fix(nexon-console): test timeout tab component"
+pnpm run test --filter @gwt/nexon-console -- tab
+git co feat/setup-i18n
+git ci "feat: add router context, authenticate routes, review example"
+cat conf/keybindings.conf | less
+code conf/keybindings.conf
+cd hypr/
+yay vicinae
+yay vinciane
+git ci "feat(console): sidebar" --no-verify
+git ci "feat(console): sidebar"
+git rebase --con
+git co -b "feat/implement-sidebar-console"
+git fetch origin feat/setup-i18n
+git branch -D feat/implement-sidebar-console
+unzip -h
+git ci "feat: file-based concept"
+yay vim
+vim
+nvim --clean
+nvim
+vimtutor
+vim tuto
+cat ~/.config/hypr/conf/autostart.conf
+cat kanata.service
+cd /etc/systemd/system/
+hyprland -v
+yay hyprland
+yay kanata
+hyprpm list
+hyprpm disable hy3
+hyprpm remove https://github.com/virtcode/hypr-dynamic-cursors
+hyprpm remove dynamic-cursor
+hyprpm disable dynamic-cursor
+killall hyprpm
+code ~/.config/hypr/
+hyprpm reload
+hyprpm reloasd
+hyprpm -h
+hyprpaper -h
+top
+hyprpm enable dynamic-cursors
+hyprpm add https://github.com/virtcode/hypr-dynamic-cursors
+git ps origin feat/component-tab-nexon-console -f
+git co feat/component-tab-nexon-console
+ig st
+pnpm run test --filter @gwt/nexon-console -- search
+git co feat/building-search-component
+git pull origin feat/svg --rebase
+git co feat/svg
+git fetch origin feat/svg
+pnpm run test --filter @gwt/nexon-console
+pnpm run test --filter @gwt/nexon-console -- card
+git ps -u origin main
+git ps
+git ci "feat: init source with tanstack router"
+git remote add origin git@github.com:lazarus2019/learn-tanstack-router.git
+git init
+git ps origin feat/component-tab-nexon-console -d
+git ps origin feat/component-tab-nexon-console -de
+htop
+pnpm run test --filter @gwt/nexon-console -- cardlkjasdlkjasdlkjasdlkjasdlkjasdkljaslkdjaslkdjaskldjaslkjdaslkjdaslkjdasld
+pnpm run test --filter @gwt/nexon-console -- breadcrumb
+pnpm run test --filter @gwt/nexon-console breadcrumb
+git add packages/nexon-console/src/components/breadcrumb/breadcrumb.test.tsx
+git add src/components/breadcrumb/breadcrumb.test.tsx
+npx vitest run
+cd packages/nexon-console/
+npx vitest
+bun turbo run test
+bun turbo run test --affected
+turbo run test --affected
+as
+rm -rf node_modules pnpm-lock.yaml
+node -v
+fnm
+rm -rf node_modules
+pnpm run test card
+pnpm run test tab
+vitest run
+pnpm run test --verbose
+pnpm run test --filter @gwt/nexon-console --verbosity
+pnpm run test --filter @gwt/nexon-console --verbose
+pnpm run test --filter @gwt/nexon-console -- --verbose
+git co feat/newsroom-35-attachment-actions-panel
+git fetch origin feat/newsroom-35-attachment-actions-panel
+bun add -D @tanstack/router-plugin
+bun add @tanstack/react-router @tanstack/react-router-devtools
+bun add @tanstack/react-router
+cd learn-tanstack-router/
+bun create vite learn-tanstack-router --template react-ts
+cd workspace/Per/
+code ~/.config/hypr/conf/windowrules.conf
+git ci "feat(nx-console): implement component tab"
+git reset 0e2e638
+pnpm git st
+cp ~/Downloads/icon=chart.svg ./packages/nexon-icons/svgs/solid/
+cd .config/waybar/
+waybar -c ~/.config/waybar-mt/config.jsonc -s ~/.config/waybar-mt/style.css
+code config.jsonc
+code style.css
+code style
+cd waybar-mt/
+mkdir waybar-mt
+cd .config
+yay nouveau
+git ps origin feat/component-tab-nexon-console
+git clean -ds
+girt st
+git co feat/build-breadcrumb-nexon-console
+git fetch origin feat/build-breadcrumb-nexon-console
+git ps origin feat/update-export-import-po-file-ui -f
+git ci "style(import po): fix flag language display"
+git ci "feat(import po): add validate message when source target is same"
+git add src/modules/masterSheet/components/ExportData/ExportDataTable.tsx
+git reset 49f35980
+git ps origin feat/update-export-import-po-file-ui
+git ci "feat(export po): add validate message & target lang guide"
+git co -b "feat/update-export-import-po-file-ui"
+git co feat/newsroom-32-recommend-content-main-page
+git fetch origin feat/newsroom-32-recommend-content-main-page
+git fetch feat/newsroom-32-recommend-content-main-page
+pnpm run build --filter @gwt/nexon-console
+rm -rf apps/storybook/node_modules
+yarn add -D rollup-plugin-node-builtins
+volta install node@20.14.0
+yarnd ev
+yarn build
+git co feat/fe-accordion-component
+git co origin/feat/fe-accordion-component
+git fetch origin feat/fe-accordion-component
+git ci "feat(nx-console): implement component tab" --no-verify
+pnpm run lint --filter @gwt/nexon-console
+git co feat/update-dropdown-menu
+git fetch origin feat/update-dropdown-menu
+git co origin/feat/update-dropdown-menu
+git co -b "feat/component-tab-nexon-console"
+git branch -D develop
+git ps origin fix/po-import-target-languages-missing-source-option
+git ci "fix(po import): missing source language options"
+git co -b "fix/po-import-target-languages-missing-source-option"
+yarn && yarn dev
+yarn dv
+bun add react-error-boundary
+git ps origin feat/newsroom-34-implement-main-page-list-lastest-press-release -f
+git clean -fs
+git add src/*
+git ps origin feat/newsroom-34-implement-main-page-list-lastest-press-release
+bun run commit
+bun run comit
+mv ~/Downloads/icon_arrow.svg ./src/shared/asset/svg/
+mv ~/Downloads/Vector.svg ./src/shared/asset/svg/
+git co -b "feat/newsroom-34-implement-main-page-list-lastest-press-release"
+git ci "feat(test): test"
+chmod +x scripts/add-commit-prefix.sh
+
+git ps origin fix/search-mastersheet-item-text-overflow
+git ci "fix(search mastersheet item): style text content overflow"
+git co -b "fix/search-mastersheet-item-text-overflow"
+zip -r WebhookCustom.zip manifest.json Microsoft.Flow/
+yay zip
+unzip WebhookGWT_20250923065335.zip
+unzip -p WebhookGWT_20250923065335.zip
+cd Public/
+update-desktop-database ~/.local/share/applications/
+nano ~/.local/share/applications/wezterm-custom.desktop
+cat ~/.local/share/applications/wezterm-custom.desktop
+wezterm -h
+~
+nano wezterm-custom.desktop
+cat mimeapps.list
+cd .local/share/applications/
+cp .wezterm.lua .wezterm-custom.lua
+git add src/vite-env.d.ts
+git rebase --onto 5b74a5a main
+git commit -m "Initial commit without .env"
+git add README.md
+git add vite.config.ts
+git add .gitignore .vscode/* eslint.config.js index.html package.json public/* tsconfig.app.json  tsconfig.json tsconfig.node.json
+git reset
+git checkout --orphan temp HEAD
+git branch -D temp
+git co temp
+git rm --cached .env
+git restore --staged .env
+yay webstorm
+cargo build
+wezterm cli spawn --help
+cat ~/.gitconfig
+yay git filter repo
+git filter-repo --mailmap thaison
+git filter-repo --mailmap
+git filter-repo --path . --sdr
+git filter-repo --sdr
+git reset 5b74a5a
+git reset aab6e40
+cat .git/filter-repo/analysis/directories-all-sizes.txt  &| less
+git filter-repo --analyze
+git remote add origin git@github.com:lazarus2019/test-git-filter-repo.git
+echo $ORIGINAL_CLONE_URL
+git remote add origin $ORIGINAL_CLONE_URL
+git remote -v
+git filter-repo --path .env --invert-paths
+git filter-repo --path .env --invert-paths --force
+git ca --no-edit
+git rebase -i 5b74a5a
+git-filter-repo -h
+git-filter-repo -v
+git-filter-repo
+yay git filter
+git ci "feat(shared): style"
+git ci "(shared): type"
+git ci "feat(lib): store"
+code ..
+git ci "chore(settings): vscode"
+git ci "feat(env): type-safe"
+git ci "feat(shared): config api and env"
+git commit --amend --author="lazarus2019 <thaisonbk2020@gmail.com>" --no-edit
+git ci "feat(init): create project with vite react typescript"
+bun create vite . --template react-ts
+ghq get git@github.com:lazarus2019/test-git-filter-repo.git
+git co feat/init-project
+git ps origin feat/asdf
+git cas
+bun de
+pnpm add -D postcss-extend
+git ci "feat: dfasdf"
+git reset HEAD@\{3\}
+git ci "feat"
+git commit -m "feat: asaslkjdaklsjd"
+git commit -m "feat:asaslkjdaklsjd"
+git commit -m "asaslkjdaklsjd"
+dprint
+git pull origin feat/init-project --rebase
+yay dprint
+git reset HEAD@\{2\}
+cat commit-msg
+cd .git/hooks/
+pre-commit install --hook-type commit-msg
+cat pre-commit
+pre-commit install
+code ~/.config/fish/config.fish
+sudo pacman -S direnv
+pacman -S direnv
+nix-env -iA nixpkgs.direnv
+pnpm install
+git co -b "feat/asdf"
+tilix -h
+tilix -
+vi
+fastfetch
+yay tilix
+uname -m
+ghq get ssh://git@gitlab.nexon.com:8022/analysis-support/gameweb/gameweb.git
+ghq get https://gitlab.nexon.com/analysis-support/gameweb/gameweb.git
+git co feat/newsroom-8-header-component
+git co 8aca7d6 feat/newsroom-8-header-component
+git ps origin feat/NEWSROOM-18-banner-component -f
+git add src/shared/lib/datetime/datetime.lib.ts
+yay slack
+slack
+slack -v
+git ps origin hyprland-config
+git config --local --list
+git config --local all
+git ci "config(waybar): mechabar"
+cp -r ~/.config/waybar-custom/* waybar-mechabar/
+mkdir waybar-mechabar
+cd hyprland/
+git co hyprland-config
+ghq get git@github.com:lazarus2019/linux-setup.git
+gti ca
+bun build
+killall teams-for-linux
+hyprctl dispatch exec waybar
+hyprctl dispatch waybar
+cava waybar
+waybar -c ~/.config/waybar-custom/config.jsonc -s ~/.config/waybar-custom/style.css
+chmod +x cava.sh
+code cava.sh
+touch cava.sh
+cd ~/.config/waybar-custom/
+cava
+killall waybar
+cp -r waybar/* ~/.config/waybar-custom
+mkdir -p ~/.config/waybar-custom
+cd .config/
+ghq get https://github.com/dim-ghub/MechaHyde.git
+git add src/@types/shims.d.ts
+sudo pacman -S htop
+yay htop
+journalctl -b
+bun add dayjs
+git ps origin feat/NEWSROOM-18-banner-component
+git ci "feat(components): NEWSROOM-18 banner"
+git add src/core/atom/banner.tsx
+bun run preview --port 3000
+git co feat/NEWSROOM-18-banner-component
+git ps origin feat/NEWSROOM-14-dialog-component --force
+git ps origin feat/NEWSROOM-14-dialog-component -f
+git add src/shared/api/base/api.lib.ts
+git add src/shared/lib/datetime/datetime.config.ts src/shared/lib/datetime/index.ts
+git add src/core/molecule/alert-dialog/.
+git add src/core/molecule/.
+git ps origin fix/TMSTLM-1447-import-column-matching-wrong-option
+git ci "fix(import ms): tmstlm-1448 wrong attachment file id"
+git ci "fix(import ms): column matching wrong option"
+git restore --staged  src/modules/workspace/components/ImportDialog/index.tsx
+git co -b "fix/TMSTLM-1447-import-column-matching-wrong-option"
+git pull origin qa --rebase
+code .env
+killall brave
+git co qa
+yay
+''
+code starship.toml
+git add src/core/molecule/alert-dialog.tsx
+bun
+git co feat/NEWSROOM-14-dialog-component
+git co -b "feat/NEWSROOM-18-banner-component"
+git ps origin feat/NEWSROOM-14-dialog-component
+git ci "feat(components): NEWSROOM-14 dialog component"
+git commit
+bun add clsx
+yarn add clsx
+git ps origin feat/export-po-file-valiation -f
+git co -b "feat/NEWSROOM-14-dialog-component"
+bun dv
+git ps origin feat/export-po-file-valiation
+git ci "feat(export): validation po file"
+git co -b "feat/export-po-file-valiation"
+git restore src/components/molecules/DropZoneFile/DropZoneFIle.tsx
+git restore src/components/atom/dialog.tsx
+yarn add pofile
+yarn remove polite
+yarn add polite
+yarn add
+brave -v
+npx shadcn add https://shadcn-dialog.vercel.app/registry/dialog.json
+cd applications/
+cd app
+cd share/
+cd /usr
+cd /usr/local/share/
+git co develop --rebase
+cd .config/hypr/
+git ps origin fix/tmstlm-1445-import-column-matching-wrong-sheet-position -f
+git add src/modules/workspace/helper.ts
+git ps origin fix/tmstlm-1445-import-column-matching-wrong-sheet-position
+git ci "fix(SelectHeaderImportColumn): tmstlm-1446 button position"
+git add src/modules/workspace/components/SelectHeaderImportColumn.tsx
+cat id_ed25519.pub
+cd .ssh/
+git ci "fix(ms import): tmstlm-1445 mapping wrong sheet settings"
+git add src/.
+bun run build && bun run preview --port 3000
+bun defv
+git co feat/update-setup-source
+vi .
+!
+j
+sudo cleardflkasjdf
+fisher remove nickeb96/puffer-fish
+fisher install nickeb96/puffer-fish
+v
+cd nvim/
+asd
+df
+fas
+aslkdjfasdfas
+asdf
+aws
+afjasdlkf
+curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher
+asdasdasd
+sudo nvim
+docker compose exec db-slave sh -lc 'mysql -uroot -p "$MYSQL_ROOT_PASSWORD" -D gwdb -e "SHOW TABLES;"'
+git co test/conflict
+git pull origin test/conflict
+git config --global pull.rebase false
+git config --global --list
+touch asdf.stsx
+git co test/conflict-bk
+git ps origin test/conflict -f
+git ps origin test/conflict
+touch asdf.tsx
+git co -b "test/conflict-bk"
+git co -b "test/conflict"
+git branch -D fasdf
+touch asdfasdf.tsx
+git co -b "fasdf"
+git pull
+git pull origin
+pnpm turbo run migrate --filter=page-builder-api
+pnpm run migrate --filter=page-builder-api
+pnpm run circular --filter=page-builder-api
+pnpm run circular --filter=core
+pnpm run circular
+pnpm turbo run migrate --filter page-builder-api
+pnpm turbo run build --filter page-builder-api
+pnpm turbo migrate --filter=page-builder-api
+git ci "fix(ms import): tmstlm-1445 wrong sheet index posin"
+git co -b "fix/tmstlm-1445-import-column-matching-wrong-sheet-position"
+git ps origin fix/1445
+git ci "fix(ColumnMatchingTable): tmstlm-1445" --no-verify
+git co -b "fix/1445"
+git co developw
+nvim keybindings.conf
+cd conf/
+cd ~/.config/hypr/
+ghq get ssh://git@gitlab.nexon.com:8022/corporation/dotorisopoong/dotorisopoong-frontend.git
+code ~/.config/waybar/config-bk.jsonc
+pnpm run migate
+cd apps/apiu
+docker exec -it localstack-main bash
+docker exec -it localstack-main fish
+bun run build && bun run preview --port 5000
+bun add react-helmet-async
+bun add @iconify/utils
+bun add @unocss/preset-icons @iconify/json
+bun add zod
+hyprctl dispatch workspaceopt allfloat
+rofi -drun
+rofi
+rido
+chmod +x terminal.sh
+chmod +x browser.sh
+cd scripts/
+brave
+wezterm
+exec bash
+k`
+fastfetch]
+reboot
+sudo cat grub.cfg | less
+yay nvidia
+yay linux-zen
+cls
+sudo vi /etc/default/grub
+cd /boot/
+sudo nano grub.cfg
+cd grub/
+cd /boot/grub/
+rebootr
+sudo cd ..
+sudo nano grub.con
+nano grub.cfg
+nano grub.con
+code grub.cfg
+sudo su
+su
+sudo pacman -S linux-zen linux-zen-headers
+yay rtl8761b
+rfkill
+sudo journalctl -f
+sudo dmesg
+sudo modprobe btusb
+sudo modprobe -r btusb
+uname -r
+uname -a
+sudo dmesg | grep rtk
+dmesg | grep rtk
+yay bluez
+rtl_test
+yay rtl-sdr
+systemctl status bluetooth.service
+lspci
+btmgmt
+cd /usr/lib/firmware/
+lsmod | grep "bt"
+modprobe btusb
+lsmod
+journalctl -f
+neofetch
+modprobe  btusb
+modprobe -r btusb
+journalctl | grep hci
+rfkill unblock bluetooth
+yay hciuart
+sudo bluetoothctl
+yay blueman
+c
+csda
+./install.fish
+cd /home/thaison/.local/share/caelestia/
+git clone https://github.com/caelestia-dots/caelestia.git ~/.local/share/caelestia
+cd  /home/thaison/.local/share/caelestia/
+nvim .
+flameshot gui
+bun add -D @unocss/preset-wind4
+emacs
+emasc
+yay emacs
+bun add -D unocss
+bun add -D @unocss/preset-mini
+nvim init.lua
+nvimn
+rm -rf .git
+cd nvim
+git clone https://github.com/LazyVim/starter ~/.config/nvim
+cd .config/nvim
+neovim
+ghq get ssh://git@gitlab.nexon.com:8022/corporation/pressroom/kr-newsroom-frontend.git
+waybar
+code waybar/config.jsonc
+code waybar/config-bk.jsonc
+kill waybar
+ghq get ssh://git@gitlab.nexon.com:8022/analysis-support/playable-ads-platform/pap-frontend.git
+git co dev
+ghq get ssh://git@gitlab.nexon.com:8022/analysis-support/attendance-system/archive/attendancesystem_fe.git
+cd waybar/
+code .config/waybar/
+hyprctl dispatch exit
+hyprland
+cp -rf .config.bak/* .config/
+rm -rf *
+cp -rf .config.bak/* .config
+cd .config.bak/
+rm -rf /home/thaison/.local/share/caelestia/
+mkmkm
+exit
+makepkg -si
+cd python-materialyoucolor-git/
+git clone https://aur.archlinux.org/python-materialyoucolor-git.git
+cd cli/
+cd ~!
+yay -U python-materialyoucolor-git.tar.gz
+code makepkg.conf
+sudo pacman -S python-materialyoucolor
+sudo pacman -S python-materialyoucolor-git
+sudo pacman -S python-certifi
+pipx install --upgrade certifi
+pip install --upgrade certifi
+yay -S python-materialyoucolor-git
+python
+yay -S python-materialyoucolor
+yay -S python-materialyoucolor --insecure
+pip3 install https://github.com/T-Dynamos/materialyoucolor-python/archive/master.zip --break-system-packages
+pip3 install https://github.com/T-Dynamos/materialyoucolor-python/archive/master.zip
+
+# Install 
+pip3 install https://github.com/T-Dynamos/materialyoucolor-python/archive/master.zip
+
+cd /home/thaison/.local/lib/python3.13/site-packages/
+which python-steam
+yay -S python-steam
+cd /usr/bin/
+which python-config
+pip3 install materialyoucolor --upgrade --break-system-packages
+which python-materialyoucolor
+~/.local/share/caelestia/install.fish
+pip3 install materialyoucolor --upgrade
+pip3 install https://github.com/T-Dynamos/materialyoucolor-python/archive/master.zip
+sudo python -m installer dist/*.whl
+d cd ..
+cd cli/dist/
+sudo cp completions/caelestia.fish /usr/share/fish/vendor_completions.d/caelestia.fish
+python -m build --wheel
+yay -S libnotify swappy grim dart-sass app2unit wl-clipboard slurp wl-screenrec wf-recorder glib2 libpulse cliphist fuzzel python-build python-installer python-hatch python-hatch-vcs
+git clone https://github.com/caelestia-dots/cli.git
+yay -S caelestia-cli
+pacman -S python-certifi
+pacmman -S python-certifi
+pip install certifi
+sudo pacman -Syu ca-certificates
+
+python -c "import certifi; print(certifi.where())"
+python -m certifi
+openssl version
+cd /home/thaison/.local/
+code ../
+eww open activate-linux
+eww close activate-linux
+cd ~/.config/eww/
+eww close  activate-linux
+eww close  activate-linux-secondary
+eww open activate-linux-secondary
+eww open active-linux
+eww close bar_widget
+eww close bar_widget_secondary
+eww open bar_widget_secondary
+eww open bar_widget
+eww open menuctl
+eww close calendar
+eww -h
+eww kill calendar
+eww open calendar
+eww open example
+eww open bar
+eww open
+cd .config/eww/
+cd .config/ew
+cp -r eww ~/.config/
+rm -r ~/.config/eww/
+rm ~/.config/eww/
+mkdir -p ~/.config/eww
+ghq get https://github.com/Mon4sm/monasm-dots.git
+gpg
+eww
+yay -S eww
+yay eww
+echo $HOME
+$HOME
+/home/thaison/go/bin/golangci-lint --version
+golangci-lint
+golangci
+curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/HEAD/install.sh | sh -s -- -b $(go env GOPATH)/bin v2.4.0
+# binary will be $(go env GOPATH)/bin/golangci-lint
+curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/HEAD/install.sh | sh -s -- -b $(go env GOPATH)/bin
+# binary will be $(go env GOPATH)/bin/golangci-lint
+curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/HEAD/install.sh | sh -s -- -b $(go env GOPATH)/bin v2.4.0
+
+golangci-lint --version
+go run .
+git co feat/upgrade-edit-mode-tabbing-split-code
+bun run index.js
+ghq get https://github.com/theRubberDuckiee/cli-trivia-game.git
+./execute-focus-or-open.sh class:thunar class:thunar
+./execute-focus-or-open.sh class:thunar
+hyprctl dispatch focuswindow class:thunar
+./execute-focus-or-open.sh thunar thunar
+./execute-focus-or-open.sh thunar
+./execute-focus-or-open.sh
+cd hypr/scripts/
+cavasik
+code kanata/kanata.kbd
+code hypr/
+sudo systemctl enable kanata.service
+sudo ln -s ~/personal_services/kanata.service kanata.service
+git ps origin feat/TMSTLM-1432-increase-import-sheet-amount-from-10-to-20
+git ci "feat(SelectExcelSheet): max sheets amount from 10 to 20"
+git add src/modules/workspace/components/ImportExcel/SelectExcelSheet.tsx
+git co -b "feat/TMSTLM-1432-increase-import-sheet-amount-from-10-to-20"
+systemctl disable kanata.service
+sudo systemctl status kanata.service
+sudo systemctl start kanata.service
+cd personal_services/
+sudo systemctl disable kanata.service
+systemctl status kanata.service
+sudo cd /root/.config/kanata
+cd /root/.config/kanata
+cd .config/kanata/
+/bin/bash -c "kanata -c ~/.config/kanata/kanata.kbd"
+sudo systemctl daemon-reload
+cd system/
+/etc/systemd/
+/bin/bash
+code kanata.service
+mkdir personal_services
+code ../fish/config.fish
+code config.kbd
+cd ../kmonad/
+kanata -c kanata.kbd
+kanata kanata.kbd
+code kanata.kbd
+cd kanata/
+mkdir kanata
+vim config.fish
+cd .config/fish/
+which fish
+cd .local/share/
+code .wezterm.lua
+ghq get ssh://git@gitlab.nexon.com:8022/analysis-support/attendance-system/attendance_backend.git
+ghq get ssh://git@gitlab.nexon.com:8022/analysis-support/attendance-system/attendance_frontend.git
+yay cavasik
+sudo pacman -S cavasik
+code .config/wlogout/
+wlogout -b 2
+wlogout -h
+wlogout
+yarn add -D @redux-devtools/extension
+yay lightshot
+git ps origin fix/search-param-in-mastersheet-not-reset-when-replaced-content -f
+git add src/modules/workspace/components/ImportDialog/ImportInput.tsx
+truncate -s 200MB test.xlsx
+rm test.xlsx
+truncate -s 151MB test.xlsx
+cd Downloads/import_data/
+git ps origin fix/search-param-in-mastersheet-not-reset-when-replaced-content
+git ci "feat(import ms): limit upload size to 150mb"
+git add ./src/.
+git ci "fix(search ms): reset search param when replaced done"
+git co -b "fix/search-param-in-mastersheet-not-reset-when-replaced-content"
+yarn add -D simple-zustand-devtools
+code ~/.config/flameshot/flameshot.ini
+code .config/hypr/conf/keybindings.conf
+ls .config/hypr/
+ls .config/hypr/conf/
+git ps origin fix/import-po-file-in-mastersheet-using-project-target-languages
+git ci "fix(import po): misisng additional settings import in mastersheet"
+git ci "fix(import ms): update po target to mastersheet languages"
+git ci "fix(import ms): update po target language to mastersheet target languages"
+git co -b "fix/import-po-file-in-mastersheet-using-project-target-languages"
+code docker-compose.yml
+hyprpm enable hy3
+hyprpm update
+hyprpm reload -n
+hyprpm add https://github.com/outfoxxed/hy3 -v
+hyprpm remove hyprgrass
+hyprpm remove https://github.com/outfoxxed/hy3
+sudo ln -s /usr/lib/libhyprutils.so.7 /usr/lib/libhyprutils.so.6
+ls | grep 'libhyprutils'
+cd /usr/lib
+sudo pacman -Syu hyprland
+sudo pacman -Qs | grep hypr
+yay -S hyprutils-git
+yay -S hyprutils-git hyprutils
+which hyprland
+yay -S hyprland-git
+yay -S hyprutils
+sudo pacman -Syu linux-firmware-nvidia
+sudo pacman -Rdd linux-firmware
+sudo pacman -Rdd hyprutils-git
+rm -rf ~/.cache/yay/*
+sudo pacman -Rs hyprutils
+sudo pacman -Syu
+sudo pacman -Sys
+hyprpm -v
+hyprpm add https://github.com/horriblename/hyprgrass -v
+hyprpm add https://github.com/outfoxxed/hy3
+hyprpm enable hyprgrass-pulse
+hyprpm enable hyprgrass
+hyprpm add https://github.com/horriblename/hyprgrass
+hyprctl reload
+code .config/
+hyprpn update
+hyprctl exec waybar
+yarn seed
+docker stats
+docker stats --no-stream
+git ps origin fix/TMSTLM-1419-import-not-validate-utf8-multiple-files
+git ci "fix(import ms): tmstlm-1419 validate multiple files updated"
+git branch -m "fix/TMSTLM-1419-import-not-validate-utf8-multiple-files"
+git co -b "fix/TMSTLM-1419-import-not-validate-utf8-multiple-file"
+is
+git add src/pages/posts/sso-oauth.md
+git ci "content(posts): sso, oauth flow"
+code src/pages/posts/sso-oauth.md
+bun ddev
+pnpm why react
+pnpm list react
+
+cd apps/page-builder
+cp -r ../bk-waybar/* .
+cp ../bk-waybar/* .
+rm *
+cp -r * ~/.config/waybar/
+rm -r *
+git co super-waybar
+ghq get https://github.com/Anik200/dotfiles.git
+ghq get git@gitlab.com:notscripter/dotfiles.git
+cp -r ./dots/.config/waybar/* ~/.config/waybar/
+git reset --hard 976c052a73a39ba38b8aa8f21560bc4b651e8601
+cd ,,
+cd dots/.config/waybar/
+git reset --hard 8ea342ef93d66d1476abcd0fddcf4cd5c5aee361
+ghq get https://github.com/Axenide/Dotfiles.git
+git reset --hard d839457
+cd Ax-Shell/
+ghq get https://github.com/Axenide/Ax-Shell.git
+rm -rf Ax-Shell/
+git reset --hard ba5a316
+git reset 395abfc
+git reset --hard 03946bb
+git reset --hard d839457032114258c324656c3c4d73a6a5cb5245
+git reset --hard d807bca
+git reset --hard d8aff4d3b3eba0ef910fd5e4b3c204cbbdef2897
+sudo pacman -S gtk3 cairo gtk-layer-shell libgirepository gobject-introspection gobject-introspection-runtime python python-pip python-gobject python-cairo python-loguru pkgconf
+python wayland.py
+cd widgets/
+cd modules/
+ls bk-waybar/
+cp -r ./waybar/* bk-waybar/
+mkdir bk-waybar
+ls src/pages/posts/
+ls src/pages/
+ls src/content/
+code src/content/
+ghq get git@github.com:lazarus2019/learn-astro.git
+code .config/fish/functions/peco_change_directory.fish
+code .config/fish/functions/fish_user_key_bindings.fish
+.gitconfig
+eza -a --icons --header --time-style=default
+code .config/fish/config.fish
+code .config/fish/con
+cat .gitconfig
+clst
+cat settings.ini  &| less
+cd ~/.config/gtk-3.0/
+dpkg -l libgtk2.0-0 libgtk-3-0
+cat .gitconfig  &| less
+.gitconfig  &| less
+falskdj fl;kasdj
+
+
+asdasd asd
+fish
+asdasdas
+asdasasd asd asd asdasdasdas d asd asdas d
+help editor
+history-pager
+git ps origin feat/TMSTLM-1408-update-favicon -f
+git ps origin feat/TMSTLM-1408-update-favicon
+git ci "feat(favicon): tmstlm-1408 update"
+git co -b "feat/TMSTLM-1408-update-favicon"
+unzip 03.\ Favicon-TLM2.0.zip
+yay debtap
+sudo pacman -Ss debtap
+sudo pacman -S debtap
+yay tlauncher
+unzip TLauncher.v16.zip
+code ../hypr/conf/monitors.conf
+code ../hypr/scripts/
+code ~/.config/wlogout/
+lsof -p 1775857 | grep libgtk
+pidof brave
+lsof -p $(pidof brave) | grep libgtk
+gedit
+cat /proc/$(pidof brave)/maps | grep gtk
+strings  /usr/bin/brave | grep GTK
+strings  /usr/bin/brave | grep gtk
+strings  /usr/bin/brave
+ldd /usr/bin/brave
+which brave
+ldd /usr/bin/brave | grep gtk
+vim settings.ini
+cd .config/gtk-3.0/
+vim cert_vn_ssl_cert.crt
+gsettings set org.gnome.desktop.interface color-scheme prefer-dark
+touch settings.ini
+cd gtk-3.0/
+a  cd
+sudo pacman -S nwg-look
+pacman -S Nwg-look
+rm user.js
+firefox
+mv user.js ../
+cat README.md
+cd chrome/
+mkdir chrome
+rm -rf chrome
+mv chrome chrome/
+cd lozvzzrc.default-release/
+cat user.js
+rm -rf firefox-themes
+ls firefox-themes/
+unzip ffultima3.5.zip -d /home/thaison/.mozilla/firefox/lozvzzrc.default-release/chrome/.
+ls | grep '.zip'
+unzip FirefoxONE_Release_v.141.zip -d /home/thaison/.mozilla/firefox/lozvzzrc.default-release/chrome/.
+cd hvzkeuqe.default/
+git ps origin feat/TMSTLM-1406-dashboard-ui-table -f
+git ps origin feat/TMSTLM-1406-dashboard-ui-table
+git ci "style(dashboard): table ui column & cell"
+git co feat/TMSTLM-1406-dashboard-ui-table
+git stash 0u
+git branch -m feat/TMSTLM-1406-dashboard-ui-table
+git ci "fix(dashboard): tmstlm-1406 table ui column & cell style"
+git co -b "fix/TMSTLM-1406-ui-table-dashboard"
+gitst
+git co der
+ca hvzkeuqe.default/ls
+ca hvzkeuqe.default/
+cd hyz
+rm -r chrome/
+rm chrome/
+mv * ../
+cp -rf * .
+cp -r * .
+cp * .
+cd chrome/o
+mv chrome/. ./
+sl
+mv -r chrome/*ls .
+mv -r chrome/* .
+mv -r chrome/. .
+mv -f chrome/. .
+mv chrome/. .
+rm LICENSE
+mv user.js ../../hvzkeuqe.default/
+mv user.js ../hvzkeuqe.default/
+cd FirefoxONE_Release_v.141/
+cs FirefoxONE_Release_v.141/
+cd chor
+rm -r FirefoxONE_Release_v.141/
+rm FirefoxONE_Release_v.141/
+cp -r FirefoxONE_Release_v.141/. ./
+unzip FirefoxONE_Release_v.141.zip -d /home/thaison/.mozilla/firefox/lozvzzrc.default-release/chrome/
+qclear
+cat install.sh | less
+cat install.sh
+cd /home/thaison/.mozilla/firefox/lozvzzrc.default-release
+lls
+./install.sh
+ghq get https://github.com/vinceliuice/WhiteSur-firefox-theme.git
+cd theme/
+cd /home/thaison/.mozilla/firefox/
+code ../flameshot/flameshot.ini
+sudo umount usb/
+sudo umount /usb/
+sudo umount /mnt/usb/
+sudo unmount /mnt/usb/
+cd usb/
+sudo mount /dev/sdb1 usb/
+lsblk
+cd /mnt/usb/
+sudo mount /sdb/sdb1 /mnt/usb/
+sudo mkdir /mnt/usb/
+sudo mount /sdb/sdb1 usb
+mkdir usb
+thunar chrome/
+unzip ffultima3.5.zip -d /home/thaison/.mozilla/firefox/lozvzzrc.default-release/chrome/
+unzip ffultima3.5.zip /home/thaison/.mozilla/firefox/lozvzzrc.default-release/chrome/
+cd .mozilla/firefox/
+cd thaison/
+code .config/flameshot/flameshot.ini
+XDG_CURRENT_DESKTOP=sway flameshot gui
+sudo pacman -S xdg-desktop-portal xdg-desktop-portal-hyprland
+sudo pacman -S xdg-desktop-portal-hyprland
+sway
+export SDL_VIDEODRIVER=wayland
+export _JAVA_AWT_WM_NONREPARENTING=1
+export QT_QPA_PLATFORM=wayland
+export XDG_CURRENT_DESKTOP=sway
+export XDG_SESSION_DESKTOP=sway
+exec sway
+yay -S xdg-desktop-portal xdg-desktop-portal-wlr grim
+yay -S flameshot-git xdg-desktop-portal xdg-desktop-portal-wlr grim
+cat .config/hypr/conf/keybindings.conf
+du -h pkg/
+du -h hyprpaper-0.7.5-1-x86_64.pkg.tar.zst
+cd pkg/
+cd /var/cache/pacman/
+du -h hypr/
+du -h hyprland
+cd /usr/bin
+du -h hyprland/
+df -h ~/.local/share/hyprland/
+df -h /hyprland
+df -h hyprland
+df -h hyprland/
+bun run lint
+lear
+./wlogout.sh
+hyprctl -j monitors | jq -r '.[] | select(.focused==true) | if .transform == 1 then .height else .width end'
+hyprctl -j monitors | jq -r '.[] | select(.focused==true) | if .transform == 1 then "vertical" else "horizontal" end'
+hyprctl -j monitors | jq -r '.[] | select(.focused==true) | .transform'
+hyprctl -j monitors | jq -r '.[] | select(.focused==true) | if .transform = "1" then "vertical" else "horizontal" end'
+hyprctl -j monitors | jq -r '.[] | select(.focused==true) | if .transform = 1 then "vertical" else "horizontal" end'
+hyprctl -j monitors | jq -r '.[] | select(.focused==true) | if .transform = 1 then vertical else horizontal end'
+hyprctl -j monitors | jq -r '.[] | select(.focused==true) | if .transform = 1 then echo "vertical" else echo "horizontal" end'
+hyprctl -j monitors | jq -r '.[] | select(.focused==true) | if .transform = 1 then echo vertical else echo horizontal end'
+cd .config/wlogout/
+hyprctl -j monitors | jq -r '.[] | select(.focused==true) | if .transform = 1 then .width else .height end'
+hyprctl -j monitors | jq -r '.[] | select(.focused==true) | [.transform = 1] && .width || .height'
+hyprctl -j monitors | jq -r '.[] | select(.focused==true) | ([.transform = 1] && .width || .height)'
+[ "1" = "1" ] && echo ok || echo fail
+[ "1" === "1" ] && echo ok || echo fail
+[ "1" == "1" ] && echo ok || echo fail
+[[ "1" == "1" ]] && echo ok || echo fail
+true && echo ok || echo fail
+hyprctl -j monitors | jq -r '.[] | select(.focused==true) | ([[.transform == 1]] && .width || .height)'
+hyprctl -j monitors | jq -r '.[] | select(.focused==true) | [[.transform == 1]] && .width || .height'
+/bin/sh [ "1" == "1" ] && echo "test"
+[ "1" == "1" ] && echo "test"
+echo 1 == 1
+1 == 1
+exec 1 = 1
+1 === 1
+hyprctl -j monitors | jq -r '.[] | select(.focused==true)'
+hyprctl -j monitors | jq -r '.[] | select(.focused==true) | .height / .scale'
+yay -S jq
+hyprctl -j monitors
+pnpm turbo build --filter=packages/nest-core
+pnpm turbo build --filter="nestjs-core"
+pnpm turbo build --filter= nestjs-core
+pnpm turbo build --filter= nest-core
+pnpm turbo build --filter= gwt/core
+pnpm turbo build --filter="packages/core"
+pnpm turbo run build --filter="packages/core"
+pnpm turbo run build --filter=packages/core
+pnpm turbo run build --filter package
+pnpm turbo run build --filter packages
+pnpm turbo run build --filter compiler
+pnpm turbo run build --filter core
+pnpm turbo run build --filter packages/core
+code wlogout.sh
+nano wlogout.sh
+vi wlogout.sh
+sudo chmod +x wlogout.sh
+wlogout -C style.css -l layout --protocol layer-shell -b 5
+wlogout -C style.css -l layout
+wlogout -C style.css
+cp * ~/.config/wlogout/icons/
+cd hyprdots/wlogout/icons/
+git down-dir
+nano .gitconfig
+chmod +x down-git-repo.sh
+vi down-git-repo.sh
+cat scripts/hello.sh
+ls scripts/
+ghq get https://github.com/ArtsyMacaw/wlogout.git
+yay -S wlogout
+yay wlogout
+unzip wlogout.tar.gz
+which fuse3
+fdisk -l /dev/sdx
+sudo cfdisk
+cfdisk
+cfdish
+sudo pacman -S wlogout
+pacman -S wlogout
+git co feat/implement-publish-app-api
+git ps origin fix/TMSTLM-1392-project-request-admin-can-not-approve -f
+git ps origin fix/TMSTLM-1392-project-request-admin-can-not-approve
+git ci "fix(project): tmstlm-1392 redirect to approve page when is admin"
+git reset 8260278c
+git branch --show-current | fish_clipboard_copy
+git branch --show-current
+git ci "fix(project): admin can not approve requested project"
+git co -b "fix/TMSTLM-1392-project-request-admin-can-not-approve"
+git cod ew
+pnpm run migraste
+git co feat/api-publish-app
+git ps origin feat/handle-upload-import-file-have-path-separator
+git ds develop
+git ci "feat(import): handle upload file with path separator"
+git co -b "feat/handle-upload-import-file-have-path-separator"
+ig tyst
+git ps origin fix/TMSTLM-1383-tm-entry-deduplicate-language-options
+git ci "fix(tm entry): tmstlm-1383 deduplicate language option"
+git co -b "fix/TMSTLM-1383-tm-entry-deduplicate-language-options"
+git sta
+git ps origin fix/TMSTLM-1385-replace-text-grid-when-have-job
+git ci "fix(text grid): tmstlm-1389 handle toast when replace status"
+git co fix/TMSTLM-1385-replace-text-grid-when-have-job
+git ci "fix(mastersheet): tmstlm-1385 replace text grid when have job"
+git co -b "fix/TMSTLM-1385-replace-text-grid-when-have-job"
+ghq get git@gitlab.com:feel-free-knowlegde/git-based-cms.git
+cd ls
+nkill
+rm -rf git-based-cms/
+git stash -u -m "feat handle upload filename have dot completed version"
+mkcert "localhost" localhost 127.0.0.1 ::1
+cd cert-local/
+pnpm run start
+cp ~/cert-local/localhost+2.pem ~/cert-local/localhost+2-key.pem .
+cd cert/
+mkdir cert
+pnpm
+ghq get git@github.com:lazarus2019/nestjs-started-project.git
+bun run dev --host
+bun add -D @vitejs/plugin-basic-ssl
+
+code vite.config.ts
+sudo trust extract-compat
+sudo cp ~/cert-local/localhost+2-key.pem .
+sudo cp ~/cert-local/localhost+2.pem .
+cd /etc/ca-certificates/trust-source/anchors/
+mkcert localhost 127.0.0.1 ::1
+mkcert -install
+mkdir cert-local
+sudo pacman -S mkcert
+sudo pacman -Syu mkcert
+yay -R nss
+yay -Rs nss
+yay -S nss
+which nss
+yarn dev --host
+cat hostname
+cat host.conf
+cat hosts
+git diff develop
+git config list
+git ps origin fix/handle-submit-attachments-when-request-project
+git ci "feat(mastersheet): handle show loading when update bulk text grid"
+git ci "feat(ProjectListDetailPage): tmstlm-1381 modify attachment"
+git co -b "fix/handle-submit-attachments-when-request-project"
+git stash -u -m "feat handle upload filename have dot"
+git ps origin feat/handle-preview-ui-page
+git ci "feat(page-builder): update preview page"
+git co -b "feat/handle-preview-ui-page"
+cd apps/page-builder/
+git pull origin feat/widget-image --rebase
+git co feat/widget-image
+git stash show -p stash@\{4\}
+git stash show -p stash@\{3\}
+git stash show -p stash@\{1\}
+git stash show -p stash@\{2\}
+git oc de
+git ps origin fix/TMSTLM-1382-hide-project-created-breadcrumb-detail-page
+git branch -m "fix/TMSTLM-1382-hide-project-created-breadcrumb-detail-page"
+git ci "fix(project): remove show breadcrumb when created project in detail page"
+git co -b "fix/TMSTLM-1382-hide-project-created-breadcrumb-detail-form"
+code  ~/.config/hypr/hyprland.conf
+ls ~/.config/hypr/
+git ps origin fix/TMSTLM-1362-comment-tag-user
+git ci "fix(CommentInput): update mention user logic"
+yay -S flameshot-git
+git co -b "fix/TMSTLM-1362-comment-tag-user"
+git ps origin fix/TMSTLM-1367-mastersheet-diffing-uploading-state -f
+git pull origin fix/TMSTLM-1357-upload-file-handle-check-encoding --rebase
+git pull origin fix/TMSTLM-1357-upload-file-handle-check-encoding
+git restore .,
+git ps origin fix/TMSTLM-1367-mastersheet-diffing-uploading-state
+git ci "fix(ms import): tmstlm-1367 diffing uploading state"
+git ps origin fix/TMSTLM-1357-upload-file-handle-check-encoding -f
+git co -b "fix/TMSTLM-1367-mastersheet-diffing-uploading-state"
+git ps origin fix/TMSTLM-1357-upload-file-handle-check-encoding
+$shell
+cd .config/n
+git ci "fix(upload file): tmstlm-1357 handle check encoding"
+git branch -m "fix/TMSTLM-1357-upload-file-handle-check-encoding"
+yarn remove jschardet
+git reset 8947c79c
+yarn remove vite-plugin-node-polyfills
+yarn remove buffer
+yarn remnove buffer
+git ps origin feat/implement-image-widget-ui -f
+find . -name "node_modules" -type d -prune -exec rm -rf '{}' +
+
+git ci "feat(page-builder,page-edit): refactor & move to modal" --no-verify
+git ci "feat(page-builder,page-edit): refactor & move to modal"
+cat go.mod
+cat main.go
+go run main.go
+go .
+cat accounts.txt
+go
+yay -S go
+yay go
+ghq get git@github.com:lazarus2019/go-account-git-manager.git
+code ~/.config/
+code multi-sheet\ 1.csv
+code common\ 1.xml
+code common\ 1\ \(copy\ 1\).xml
+yarn add -D vite-plugin-node-polyfills
+yarn add buffer
+yarn add utf8
+iconv -f UTF-8 -t UTF-32 common\ 1.xml -o common\ 1Utf32.xml
+yarn add chardet
+yarn add detect-file-encoding-and-language
+
+code TLMSample\ -\ Copy\ 1.po
+code neo2u.json
+file -bi multi-sheet\ 1utf7.csv
+iconv -f UTF-8 -t UTF-7 multi-sheet\ 1.csv -o multi-sheet\ 1utf7.csv
+iconv -f UTF-8 -t UTF-7 neo2u.json -o neo2utf7.json
+iconv -f UTF-8 -t UTF-7 common\ 1.xml -o common\ 1utf7.xml
+iconv -f UTF-8 -t UTF-7 TLMSample\ -\ Copy\ 1.po -o TLMSample\ -\ Copy\ 1utf7.po
+file -bi Inventory.xml
+cd import_data/
+git ps origin fix/encoding-upload-file
+git ci "fix: encoding upload file" --no-verify
+git co -b "fix/encoding-upload-file"
+yarn add jschardet
+file -bi array-in-obj.json
+file -bi array-in-obj\ 1.json
+file -bi hoa_ngu_utf16.json
+file -bi neo2u.json
+file -bi hoa_ngu_utf7.json
+iconv -f UTF-16 -t UTF-7 hoa_ngu_utf16.json -o hoa_ngu_utf7.json
+file -bi .
+yarn add detect-file-encoding-and-language
+iconv -f UTF-8 -t UTF7 hoa_ngu_utf16.json -o hoa_ngu_utf7.json
+iconv -f UTF-8 -t THAI8 hoa_ngu_utf16.json -o hoa_ngu_1.json
+iconv -l
+iconv -l | grep 'UTF'
+iconv -f UTF-8 -t UTF-1 hoa_ngu_utf16.json -o hoa_ngu_1.json
+iconv -f UTF-8 -t UFT-1 hoa_ngu_utf16.json -o hoa_ngu_1.json
+iconv -f UTF-8 -t CP1257 hoa_ngu_utf16.json -o hoa_ngu_CP1257.json
+rm -f hoa_ngu_utf7.json rm hoa_ngu_utf77.json
+rm hoa_ngu_utf7.json rm hoa_ngu_utf77.json
+iconv -f UTF-8 -t UTF-32 hoa_ngu_utf7.json -o hoa_ngu_utf32.json
+file -bi hoa_ngu_utf77.json
+iconv -f UTF-8 -t UTF-7 hoa_ngu_utf7.json -o hoa_ngu_utf77.json
+file -bi common\ 1Utf16.xml
+iconv -f UTF-8 -t UTF-16 common\ 1.xml -o common\ 1Utf16.xml
+file -bi common\ 1.xml
+iconv -f UTF-8 -t UTF-16 multi-sheet\ 1.csv -o multi-sheet\ 1Utf16.csv
+file -bi multi-sheet\ 1.csv
+file -bi TLMSampleUtf16.po
+iconv -f UTF-8 -t UTF-16 TLMSample.po -o TLMSampleUtf16.po
+file -bi TLMSample.po
+docker exec -it localstack-main fishg
+iconv --help
+iconv -h
+iconv -f UTF-16 -t UTF-7 hoa_ngu_utf16.json hoa_ngu_utf7.json
+file -bi objects_rows\ \(copy\ 1\).json
+yay -S vlc
+playerctl open ~/Downloads/JsonErrorMessage.mkv
+playerctl
+git ps origin fix/TMSTLM-1362-cell-comment-can-not-tag-user-when-after-have-content
+git ci "fix(CommentInput): tmstlm-1362 remove regex expression end of \$"
+git co -b "fix/TMSTLM-1362-cell-comment-can-not-tag-user-when-after-have-content"
+ghq get ssh://git@gitlab.nexon.com:8022/corporation/selectall/selectall-frontend.git
+cd p/
+cd viblo.asia/
+wget --mirror --convert-links --page-requisites --no-parent . https://viblo.asia/p/linux-wget-va-cach-su-dung-XL6lA01RZek
+wget -h
+wget -mirror -convert-links -page-requisites -no-parent . https://viblo.asia/p/linux-wget-va-cach-su-dung-XL6lA01RZek
+wget -mirror -convert-link -page-requisites -no-parent . https://viblo.asia/p/linux-wget-va-cach-su-dung-XL6lA01RZek
+cd website/
+mkdir website
+tty
+wezterm imgcat village-scenic-skyview-wallpaper.jpg
+kitten icat village-scenic-skyview-wallpaper.jpg
+kitten cat village-scenic-skyview-wallpaper.jpg
+village-scenic-skyview-wallpaper.jpg
+wget https://mediaz.vn/wp-content/uploads/2024/07/content-2.jpg
+wget https://wallpapers-clan.com/wp-content/uploads/2025/02/village-scenic-skyview-wallpaper.jpg
+type wget
+type -h
+. "$(dirname -- "$0")/check-gmail"
+bash -c ". \"$(dirname -- "$0")/check-gmail\""
+cd .husky/
+
+bash -c ". \"$(dirname -- "$0")/check-gmail\""
+bunx tsc
+git ps origin feat/implement-image-widget-ui
+ping google.com
+iwd
+iwctl
+sudo cat /etc/passwd
+hyprctl dispatch resizewindowpixel exact 500 800,class:Code
+hyprctl dispatch resizewindowpixel 500 800,class:Code
+hyprctl dispatch resizewindowpixel 500 500,class:Code
+hyprctl dispatch focuswindow class:Code
+hyprctl dispatch killwindow Code
+hyprctl dispatch killwindow class:Code
+hyprctl dispatch killwindow class:code
+hyprctl dispatch killwindow code
+waybar &
+yay freetube
+cd !
+aws configure sso
+aws s3 ls
+aws --version
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo ./aws/install
+yay awscli
+aws ls
+yay -Rs youtube-dl
+yay -Rs clipgrab
+yay youtube download
+yay youtube download short
+youtube-dl --verbose -f bestvideo+bestaudio[ext=mp4] https://www.youtube.com/shorts/6msdtpVXKnw
+youtube-dl -f bestvideo+bestaudio[ext=mp4] https://www.youtube.com/shorts/6msdtpVXKnw
+youtube-dl -f best https://www.youtube.com/shorts/6msdtpVXKnw
+youtube-dl best https://www.youtube.com/shorts/6msdtpVXKnw
+youtube-dl 6msdtpVXKnw
+youtube-dl https://www.youtube.com/shorts/6msdtpVXKnw
+yay youtube dl
+sudo os-prober
+os-prober
+cat 30_os-prober
+cat 10_linux
+cd /etc/grub.d/
+ls /boot
+ls cd ~
+su root
+su rootr
+sudo cd /boot/efi
+cd /boot/efi
+lsblk -f
+git pull origin feat/implement-image-widget-ui --rebase
+git co feat/implement-image-widget-ui
+pnpm rn dev
+yay -S btop
+sudo cat grub.cfg
+cat grub.cfg
+;lkasjd;lasjkdl;kajsdl;kasjd
+code 'Untitled Document 1.md'
+waypaper
+code .config/waypaper/config.ini
+code config.ini
+cd waypaper/
+cd .copn
+yay wallrizz
+yay waypaper
+pnpm rund ev
+git ps origin fix/translation-string-id-import-guide
+git ci "fix(import ms): translation missing letter"
+git co -b "fix/translation-string-id-import-guide"
+git str
+hyprctl distpatch exit
+code .config/waybar/style.css
+docker exec -it localstack-main bas
+git reset d2c27b2
+clera
+clre
+git reset --hard HEAD@{1}
+curl http://localhost:4566/upload/hello-world/1/myImage-1754020297343.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=test%2F20250801%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20250801T035150Z&X-Amz-Expires=1000&X-Amz-Signature=d5cf09c499680d6fe2dc74ba811e308bdf635b7c7eed8db06b269cf917731e64&X-Amz-SignedHeaders=host&x-amz-checksum-crc32=AAAAAA%3D%3D&x-amz-sdk-checksum-algorithm=CRC32&x-id=PutObject
+curl http://localhost:4566
+curl http://localhost:4566/local-gameweb-storage/upload/hello-world/1/myHeader-1752743154971.png
+ss -an | grep 4566
+ss
+pnpm mirage
+ping 127.0.0.1:3000
+pkill brave
+ping http://localhost:4566
+ping http://localhost:3000/
+ping http://localhost:3000
+yay -S visual-studio-code
+yay photo viewer
+yay photo
+yay -R phototonic
+unzip EndeavourOS-HD-Wallpaper-main.zip -d .
+rm ../EndeavourOS-HD-Wallpaper-main.zip
+cp ../EndeavourOS-HD-Wallpaper-main.zip  .
+unzip CachyOS-HD-Wallpaper-main.zip -d .
+unzip Arch-Linux-HD-Wallpaper-main.zip -d .
+cd Downloads/wallpapers/
+which unzip
+code .config/hypr/conf/decorations.conf
+yay emoji picker
+yay smile
+ghq get ssh://git@gitlab.nexon.com:8022/corporation/pressroom/pressroom-frontend.git
+echo $XDG_CURRENT_DESKTOP
+gnome
+yay -S networkmanager
+ip addr show
+ip
+ipconfiog
+ipconfig
+docker rm $(docker ps -aq)
+docker stop $(docker ps -aq)
+git ps origin feat/import-dialog-add-string-id-guide
+git ci "feat(import ms): add tooltip string id guide"
+git co -b "feat/import-dialog-add-string-id-guide"
+yarn && yarn edev
+yay libre office
+yay rate mirrors
+sudo umount /media/nts-usb
+sudo cp cert_decrytion_ssl\(1\).crt cert_vn_ssl_cert.crt /media/nts-usb/
+cd anchors/
+cd trust-source/
+cd /etc/ca-certificates/
+sudo mount /dev/sdb1 /media/nts-usb/
+sudo mkdir -p /media/nts-usb
+sudo mkdir /media/nts-usb
+yay libre
+shutdown now
+git ci "feat(page-builder): implement image widget" --no-verify
+echo $XDG_SESSION_TYPE
+sudo cat /etc/default/grub
+cleaer
+bunx @chakra-ui/cli snippet add
+bun add @chakra-ui/react @emotion/react
+cd test-bundle-size/
+cd test
+mkdir test-chakra-ui
+sudo cp ~/Downloads/System\ Trust_vn_ssl_cert .
+cp ~/Downloads/System\ Trust_vn_ssl_cert .
+cd trust-source/anchors/
+code ./trust-source/anchors/cert_vn_ssl_cert.crt
+code ./trust-source/anchors/cert_decrytion_ssl\(1\).crt
+trust list
+which openssl
+cat ca-bundle.trust.crt
+cd extracted/
+sudo ls /etc/ca-certificates/trust-source/anchors/
+kill 4789
+code ~/.config/hypr/conf/autostart.conf
+git ps origin fix/log-mastersheet-submit-validation
+git ci "chore(ImportSettingNonSheetFiles): add debug log submit validation"
+git add src/modules/importMultiFiles/components/General/ImportSettingNonSheetFiles.tsx
+git co -b "fix/log-mastersheet-submit-validation"
+yarn run build --mode development && yarn preview --port 3000
+yarn run build --mode development --port 3000
+git pull origin develo --rebase
+sudo systemctl enable pulsesecure
+sudo systemctl start pulsesecure
+systemctl start pulsesecure
+yay -S gtkmm3 webkit2gtk
+yay pulse secure
+[ -z $WARP_BOOTSTRAPPED ] && printf "\\e]9278;f;{\"hook\": \"InitSubshell\", \"value\": { \"shell\": \"%s\", \"uname\": \"%s\" }}\\a" $([ $FISH_VERSION ] && echo "fish" || { echo $0 | command -p grep -q zsh && echo "zsh"; } || { echo $0 | command -p grep -q bash && echo "bash"; } || echo "unknown") $(uname)
+hello ai
+yay warp terminal
+yay warp teminal
+yay warp
+whoami
+git co feat/implement-template-asset-API
+git stash -i
+kill kmonad
+cl;ear
+d ps
+git co -b "feat/implement-image-widget-ui"
+git branch -D feat/implement-image-widget-ui
+git co 0-
+git co 0
+git ps origin fix/page-builder-canvas-data-streaming-not-append-new-data
+git ci "fix(page-builder, edit-form): canvas data not append new data"
+git co -b "fix/page-builder-canvas-data-streaming-not-append-new-data"
+git checkout a6e44ca
+yay zen browser
+kill 4907
+kmonad -h
+ghq get ssh://git@gitlab.nexon.com:8022/analysis-support/internal-asset/internal-assets-admin-fe.git
+yay tumbler
+which tumbler
+which which
+pacman -Si thunar
+shutdown -n
+shutdown
+git ci "feat(init): vite source"
+git add ./
+git branch -M main
+git remote add origin git@github.com:lazarus2019/learn-react-hook.git
+code .,
+git ps origin feat/update-import-json-xml-multisheets-concept -f
+git reset ebfd219c
+git ps origin feat/import-xml-attribute-preview
+git checkout -b "feat/import-xml-attribute-preview"
+git ps origin feat/update-import-json-xml-multisheets-concept
+git ci "feat(xml import): add attribute mode preview data"
+ls -h
+man ls
+git stash 0uy
+bun index.ts
+bun remove ws
+bun run start
+bun add ws
+bun init
+bun create vite test-bundle-size --template react-ts
+bun add react-router
+bun remove react-easy-router
+bun add react-easy-router
+locale
+ghq get ssh://git@gitlab.nexon.com:8022/nexon-ads/nexon-ads-console-front.git
+which fzf
+ls | grep 'preview'
+rg --column --line-number --no-heading --color=always --smart-case foo |
+fzf --preview 'preview.sh {}'
+fzf --style full \
+    --preview 'fzf-preview.sh {}' --bind 'focus:transform-header:file --brief {}'
+fzf --style full \
+    --preview '~/fzf-preview.sh {}' --bind 'focus:transform-header:file --brief {}'
+ls | grep 'fzf'
+yay -S fzf
+fzf -h
+chmod +x fzf-preview.sh
+fzf
+which stow
+yay stow
+yarn Ev
+git ps origin feat/migrate-template-app-and-page -f
+git ps origin feat/migrate-template-app-and-page
+git ci "feat(service): migrate template app & page"
+cd gameweb-template/
+cd ../gameweb/
+cd gamescale/
+git co -b "feat/migrate-template-app-and-page"
+git co feat/update-import-json-xml-multisheets-concept
+git ds origin/develop
+ghq get ssh://git@gitlab.nexon.com:8022/analysis-support/gamescale/admin/gamescale-admin-frontend.git
+rm -rf test-recursive/
+rm -rf workspace2
+git clone --recursive ssh://git@github.com/lazarus2019/terminal.git /home/thaison/workspace2/github.com/lazarus2019/test-recursive/
+git clone --recursive ssh://git@github.com/lazarus2019/terminal.git /home/thaison/workspace/github.com/lazarus2019/test-recursive/
+ghq get git@github.com:lazarus2019/terminal.git
+yay nu shell
+yay -S nu-shell
+cd .config/fish
+git clean -dfd
+cd page-builder-api/
+git ps origin feat/import-xml-multisheets-concept
+git ci "feat(import xml): multisheets concept"
+sudo nano /usr/share/sddm/themes/sddm-astronaut-theme/metadata.desktop
+nano /usr/share/sddm/themes/sddm-astronaut-theme/metadata.desktop
+cat /usr/share/sddm/themes/sddm-astronaut-theme/metadata.desktop
+sddm
+sddm-greeter-qt6 --test-mode --theme /usr/share/sddm/themes/sddm-astronaut-theme/Themes/jake_the_dog.conf
+sddm-greeter-qt6 --test-mode --theme /usr/share/sddm/themes/sddm-astronaut-theme/
+echo "ConfigFile=Themes/jake-the-dog.conf" /usr/share/sddm/themes/sddm-astronaut-theme/metadata.desktop
+echo "[General]
+InputMethod=qtvirtualkeyboard" | sudo tee /etc/sddm.conf.d/virtualkbd.conf
+echo "[Theme]
+Current=sddm-astronaut-theme" | sudo tee /etc/sddm.conf
+sudo git clone -b master --depth 1 https://github.com/keyitdev/sddm-astronaut-theme.git /usr/share/sddm/themes/sddm-astronaut-theme
+echo "[Theme]
+Current=jake-sddm" | sudo tee /etc/sddm.conf
+fc-list | grep -i "thunderman"
+sudo cp Thunderman.ttf /usr/share/fonts/
+cp Thunderman.ttf /usr/share/fonts/
+cd sddm/
+sudo touch sddm.conf
+touch sddm.conf
+sudo rm -r sddm/
+rm -r sddm/
+rm sddm/
+sudo mkdir sddm
+sudo mkdir ssdm
+systemctl enable sddm.service
+systemctl disable display-manager.service
+yay -S sddm qt6-svg qt6-virtualkeyboard qt6-multimedia-ffmpeg
+yay -S sddm qt6 qt6-svg qt6-virtualkeyboard qt6-multimedia
+yay thunderman
+yay thunderman font
+yay thunder man font
+lcear
+pnpm run Ev
+git co -b "feat/import-xml-multisheets-concept"
+git ps origin feat/import-json-preview-column-matching -f
+git ps origin feat/import-json-preview-column-matching
+git ci "feat(import json): add json preview"
+git ci "feat(import json): add column matching"
+git reset 059d7f44
+git ci "feat(import json): handle preview & column matching"
+git co -b "feat/import-json-preview-column-matching"
+git ps origin feat/import-json-update-ui -f
+git ci "feat(import json): update new data structure multisheet concept"
+git reset 97f1c20d
+git ci "feat(import json): handle import with multisheets concept"
+yarn run prepare
+git co TMSTLM-1231-new-import-xml
+git pull origin dev  --rebase
+git ps origin fix/attendance-daily-history-table-date-format
+git ci "fix(DailyHistoryTable): not format pdt timezone to daily date"
+git add src/modules/history/components/table-daily-history/index.tsx
+git co -b "fix/attendance-daily-history-table-date-format"
+ls -ad */|perl -pe "s#^#$PWD/#"|grep -v \.git
+code ./.
+cat chezmoistate.boltdb
+cd chezmoi/
+cp apps/page-builder-api/.env .
+docker ps -a
+kk
+f
+fasd
+d
+CJHasdL
+pnpm run de
+nvim fish_user_key_bindings.fish
+cd functions/
+nvim config.fish
+git clone --recursive ssh://git@gitlab.nexon.com:8022/analysis-support/game-experience-tracker/get-front.git /home/thaison/workspace/gitlab.nexon.com/analysis-support/game-experience-tracker/get-front --depth=1
+ghq get ssh://git@gitlab.nexon.com:8022/analysis-support/game-experience-tracker/get-front.git
+ghq get 
+
+ghq -h
+ghq get https://github.com/x-motemen/ghq.git
+git co feat/shop-game-page
+git ps origin feat/migrate-gitlab-to-server -f
+git reset a6e44ca
+git co feat/migrate-gitlab-to-server
+code .config/kitty/
+git ps origin fix/attendance-history-table-date-format
+git ci "fix(DailyHistoryTable): update date format utc to pdt"
+guit st
+git add src/modules/history/.
+git co -b "fix/attendance-history-table-date-format"
+yarn de
+git ps origin feat/import-json-update-ui
+git ci "feat(import json): handle change import mode" --no-verify
+git co -b "feat/import-json-update-ui"
+git ps origin feat/update-ui-import-mastersheet-dialog -f
+git ps origin feat/update-ui-import-mastersheet-dialog
+git ci "feat(import json): preview data & column matching" --no-verify
+git co fix/job-word-character-count
+kmonad ~/.config/kmonad/config.kbd
+time git ca
+time git ci "feat(import ms): update ui"
+git ci "feat(import ms): update ui"
+which apt
+asdas
+bun add vite-plugin-svgr
+git clone https://github.com/lazarus2019/linux-setup
+ping github.com
+curl https://github.com
+curl github.com
+bun add react-hook-form
+cp hello.sh ~
+chmod +x hello.sh
+mkdir scripts
+code .gitconfig
+ghq list -p
+ghq get https://github.com/lazarus2019/titan-core-test.git
+code .config/w
+commandline "test"
+history
+pokeget -variant 1 222
+pokeget -variant 1 -small 257
+pokeget --shiny
+pokeget -h
+pokeget
+yay pokemon
+yay gedit
+yay -R typora
+commandline -h
+echo $foo
+history|peco --layout=bottom-up|read foo
+yarn && docker compose down -v && docker compose up -d && yarn seed
+yay typora
+yay text editor
+yay git-lfs
+git lfs install
+git restore --source=HEAD
+ghq get ssh://git@gitlab.nexon.com:8022/corporation/foundation/borderless-frontend.git
+git lfs clone ssh://git@gitlab.nexon.com:8022/corporation/foundation/borderless-frontend.git
+rm -rf borderless-frontend/
+ls -Recurse * | rm
+rm -rf .
+ghq get https://gitlab.nexon.com/corporation/foundation/borderless-frontend.git
+git ci "feat(import ms): update ui" --no-verify
+wgit st
+git pull origin feat/migrate-gitlab-to-server --rebase
+git reset HEAD@\{37\}
+git pull origin develop --rebase=merges
+git rebase
+git rebase --rebase-merges
+git branch -D feat/migrate-gitlab-to-server
+git config
+git fetcho README.md
+git ds origin/feat/migrate-gitlab-to-server
+spicetify apply
+spicetify config sidebar_config 0
+curl --location 'https://dev-nxas.nexon.com/api/auth/token' \
+--form 'grant_type="authorization_code"' \
+--form 'code="44CA0ILRawrZgOGbLVAn-jWwsfu_t9nmuToYBKnnmU3rYu8razRBJmrZVnwE87tu7dQXPBNcb3w4HOu99spEH7GP6ePaYeW7zV38Bf6vN35JLkh0rY4pjdyQ_zvb0FTWchANGq7bkoV-zPsW8CD_smEK2nPMWB0oTWK4HB7FgTmJWaj6jANWbxHs9mu9fUMw"' \
+--form 'redirect_uri="https://dev-tlm2.nexon.com/"' \
+--form 'client_id="327118cf-261f-44db-a07b-d4b06fc49346"'
+git checkout TMSTLM-1231-import-json-array
+git co git checkout TMSTLM-1231-import-json-array
+bun add @uiw/react-json-view
+docker compose down -v && docker compose up -d && yarn seed && yarn dev
+yarn -v
+ghq get ssh://git@gitlab.nexon.com:8022/analysis-support/gamescaletms/gamescale-tlm-2.0/tlm_be.git
+rm -rf tlm_be/
+volta install node@20.9.0
+npm -v
+volta pin node@20.6.0
+pnpm -v
+volta list all
+cd node/
+cd node/w
+cd image/
+cd tools/
+cd toot
+cd .volta/
+sudo volta uninstall node@20.6.0
+volta uninstall node@20.6.0
+corepack enable
+volta pin node@22.14.0
+volta uninstall yarn
+volta uninstall
+volta uninstall --quiet yarn@1.22.22
+volta uninstall --quite yarn@1.22.22
+volta uninstall yarn@1.22.22
+rm yarn.lock
+volta list -d
+volta list -c
+volta list -h
+volta -h
+volta list --all
+git restores .
+rm node_modules/
+volta install yarn@1.22.22
+volta install node@20.6.0
+yay -S postman-bin
+yay postman
+yarn build && yarn preview
+yarn config list
+yarn config get registry
+yarn devb
+git co -b "feat/update-ui-import-mastersheet-dialog"
+code .config/kmonad/config.kbd
+ls /dev/input/by-id/
+bun run dev --port 8080
+git log --show-notes=review
+
+git notes add -m "Hhuhuhuh"
+docker stop mysql-slave
+docker stop tlm2-opensearch
+docker remove tlm_be-kafka-ui-1
+docker remove tlm2_redis_adapter
+git clone --depth=1 ssh://git@gitlab.nexon.com:8022/corporation/company/company-frontend.git
+ghq get ssh://git@gitlab.nexon.com:8022/corporation/company/company-frontend.git
+git co feat/web-worker-stream
+git ps origin feat/parse-dynamic-param-tanstack-router
+git ci "fix(page-builder,validate schema): add handler display error"
+git pull origin feat/parse-dynamic-param-tanstack-router --rebase
+cd test/
+bun create vite test --template react-ts
+mkdir Per
+bun start
+ghq get https://github.com/yurisldk/realworld-react-fsd.git
+git ps origin fix/TMSTLM-1291-display-search-mastersheet-error-and-clear-selected-data
+git ci "fix(SearchMasterSheet): clear current focus cell"
+git ts
+makoctl reload
+makoctl invoke
+code ../waybar/
+code ../hypr/
+makoctl list
+mako
+hyprctl notify -1 10000 "rgb(ff1ea3)" "Hello everyone!"
+code config
+cd mako/
+mkdir mako
+yay mako
+notify-send "Wallpaper automation process stopped."
+notify-send -u critical 'Battery running out!!'
+which notify-send
+docker compose down -v && docker compose up -d && pnpm run dev
+git ps origin feat/parse-dynamic-param-tanstack-router -f
+git ci "feat(page-builder,router): parse dynamic param"
+git co -b "feat/parse-dynamic-param-tanstack-router"
+git co feat/migrate-page-builder-to-server
+git branch -D feat/parse-dynamic-param-tanstack-router
+git reset 72f06e3
+git co feat/parse-dynamic-param-tanstack-router
+git ps origin feat/migrate-page-builder-to-server -f
+git pull origin feat/migrate-page-management --rebase
+git ps origin feat/migrate-page-management -f
+git ps origin feat/migrate-page-management
+git ps origin feat/migrate-page-builder-to-server
+git ci "feat(page-builder,page-builder): migrate gitlab to server"
+git co -b "feat/migrate-page-builder-to-server"
+git ds origin/feat/migrate-page-management
+git diff --stat origin/feat/migrate-page-management
+git diff --stat origin/feat/migrate-gitlab-to-server
+code ../../
+git ci "feat(page-builder, page-management): migrate to server"
+git ds origin/feat/migrate-app-info-app-management
+git co -b "feat/migrate-page-management"
+git ps origin feat/migrate-app-info-app-management -f
+git ps origin feat/migrate-app-info-app-management
+git ci "feat(page-builder, page-management): migrate list page"
+git cherry-pick 8c6c1d5bda25553a72d1ff0dc362a08ab2b4799d
+git cherry-pick origin/feat/migrate-page-builder-gitlab-service-to-server
+git co -b "feat/migrate-app-info-app-management"
+git pull origin feat/migrate-page-builder-gitlab-service-to-server --rebase
+git co feat/migrate-page-builder-gitlab-service-to-server
+git ci "feat: test" --no-verify
+git reset 3fa0db4
+git add ..
+git reset 5bcad4a
+git reset --hard 72f06e3
+git co -b "fix/migrate-page-management-gitlab-to-server"
+git branch -D fix/migrate-page-management-gitlab-to-server
+git branch -D feat/migrate-page-management-gitlab-service-to-server
+git reset b2d35eb
+git reset HEAD@\{24\}
+git ps origin feat/migrate-page-builder-gitlab-service-to-server -f
+git ci "feat(page-builder, check app exist): migrate to server"
+git ci "feat(page-builder, app-management): migrate gitlab to server"
+git stash --u --keep-index
+git restore package.json
+sudo  chmod +x scripts/execute-focus-or-open.sh
+git ps origin fix/fallback-default-language-and-add-unavailabel-languages
+git ci "fix(language-select): fallback language, add unavailabel languages" --no-verify
+yarn i
+git ci "fix(language-select): fallback language, add unavailabel languages"
+git co -b "fix/fallback-default-language-and-add-unavailabel-languages"
+gitg st
+git clean -fd yarn.lock
+git add /src/.
+git add apps/page-builder/src/pages/page-management/index.ts
+cd gameweb/
+git ci "feat(page-builder, serialize error): server response"
+git ci "chore(page-builder,router): remove page create page"
+ghq get ssh://git@gitlab.nexon.com:8022/analysis-support/tfdc/tfdc_fe.git
+code ~/.gitconfig
+git gd origin/feat/migrate-gitlab-to-server
+git diff --shortstat origin/feat/migrate-gitlab-to-server
+git diff -- origin/feat/migrate-gitlab-to-server
+git diff origin/feat/migrate-gitlab-to-server -U0
+git diff origin/feat/migrate-gitlab-to-server -uo
+g hist
+g llog
+git diff origin/feat/migrate-gitlab-to-server
+git ci "chore(page-builder-api): change file extension from json to jsonl"
+git ci "feat(page-builder-api,update-app-routes): add example value & description"
+git add apps/page-builder/src/shared/api/
+git add  .
+git ps origin fix/TMSTLM-1291-display-search-mastersheet-error-and-clear-selected-data -f
+git ci "fix(SearchMasterSheet): tmstlm-1291 display query error, clear prev query"
+git add src/modules/masterSheet/components/Search/SearchMasterSheet.tsx
+git co -b "fix/TMSTLM-1291-display-search-mastersheet-error-and-clear-selected-data"
+lll
+git stash -u -m "refactor dynamic param with zod validate"
+git ps origin feat/TMSTLM-1274-column-matching-stringId-column-to-optional
+git ci "feat(import ms): tmstlm-1274 colunm matching stringId to optional"
+git add src/modules/workspace/constant.ts
+git stash push docker-compose.yml
+git stash -u docker-compose.yml
+git co -b "feat/TMSTLM-1274-column-matching-stringId-column-to-optional"
+asdlk
+asjfhasdlk
+kmonad .config/kmonad/config.kbd
+allhalhl
+ls usb-Keychron_Keychron_Q1-event-kbd | fish_clipboard_copy
+code .config/kmonad/
+cd /dev/input/by-id/
+cd /dev/input/by-
+git merge --abort
+which satty
+kill 2733
+docker compose down -v && docker compose up -d && yarn seed
+yay nmtui
+yarn cev
+sudo cp cert_decrytion_ssl\(1\).crt cert_vn_ssl_cert.crt /etc/ca-certificates/trust-source/anchors/
+sudo rm cert_decrytion_ssl\(1\).crt  cert_vn_ssl_cert.crt
+rm cert_decrytion_ssl\(1\).crt  cert_vn_ssl_cert.crt
+yay dbeaver
+kmonad config.kbd
+kill 46360 || kmonad config.kbd
+cd .config/kmonad/
+yarn && yarn seed
+sudo modprobe uinput
+sudo nano uinput.rules
+cd /etc/udev/rules.d/
+sudo usermod -aG input,uinput $USER
+sudo groupadd uinput
+sudo groupdel uinput
+hypr
+code .config/n
+git ps origin feat/migrate-page-builder-gitlab-service-to-server
+git ci "feat(page-builder, add-page): upload page asset file instead of string"
+rm test.jsonl
+git rm test.jsonl
+git clear
+sudo chmod +x rofi-electron-launch.sh
+sudo kmonad config.kbd
+echo $USER
+yay kmonad
+cd kmonad/
+mkdir kmonad
+cd ~/.config/
+yarn run migration:run
+yarn && yarn seed && docker compose up -d
+git tlm-reset
+git push -u origin co-hyprland-config
+git ci "feat: save co configs"
+git push --set-upstream origin co-hyprland-config
+git push --set-upstream co-hyprland-config
+git branch -m "co-hyprland-config"
+git remote add origin git@github.com:lazarus2019/linux-setup.git
+git remote add git@github.com:lazarus2019/linux-setup.git
+chezmoi add waybar hypr fish kitty fcitx fcitx5 nwg-displays rofi
+chezmoi add .volta
+chezmoi .volta
+chezmoi add .gitconfig
+chezmoi add .wezterm.lua
+cd .local/share/chezmoi/
+sudo pacman -S fcitx5 fcitx5-qt fcitx5-gtk fcitx5-configtool fcitx5-unikey
+yay fcitx
+pnpm turbo run build --filter compiler && pnpm turbo run preview --filter compiler
+pnpm turbo run dev --filter compiler
+cd apps/
+git ci "feat(page-builder,add-page): migrate from gitlab to server"
+git ps origin feat/migrate-page-management-gitlab-service-to-server -f
+git co feat/migrate-page-management-gitlab-service-to-server
+yay satty
+satty
+killall waybar; waybar & disown
+kill 109936
+yay statty
+yay teams
+yay -R flameshot
+sudo nano .bash_profile
+yay -S slurp
+flameshot -h
+yay flameshot
+yay -R watershot-git
+yay -R watershot
+watershot -h
+watershot
+yay watershot
+yay -S grim
+yay shotty
+git diff origin/feat/migrate-page-builder-gitlab-service-to-server
+which teams-for-linux
+yay -R teams
+which teams-forlinux
+which teams
+5
+volta list -v
+volta -c
+npm install -g npm@11.4.2
+yay -S fastfetch
+sudo usermod -aG docker $USER
+
+sudo docker ps
+sudo gpasswd -a $USER docker
+
+sudo groupadd docker
+
+yay -S docker docker-compose
+cd page-builder
+sudo usermod -a -G docker $USER
+sudo docker compose up -d
+systemctl start docker.service
+systemctl startdocker.service
+systemctl enable docker.service
+yay docker
+sudo cp -r .config/waybar/ /mnt/usb/
+cp -r .config/waybar/ /mnt/usb/
+cp cert_vn_ssl_cert.crt ~/
+cp cert_decrytion_ssl\(1\).crt ~/
+sudo mount /dev/sdc1 /mnt/usb/
+sudo rm cert_decrytion_ssl\(1\).crt
+sudo rm cert_vn_ssl_cert.crt
+yay -S chezmoi
+ghq get git@github.com:lazarus2019/dotfiles.git
+cat ~/.ssh/id_ed25519.pub
+cat .ssh/id_ed25519.pub
+sudo mount /dev/sdb1 /mnt/usb/
+yay teams linux
+volta install yarn
+cat package.json
+ghq clone ssh://git@gitlab.nexon.com:8022/analysis-support/gamescaletms/gamescale-tlm-2.0/tlm_fe_client.git
+ghq clone -h
+ghq clone --depth=1 ssh://git@gitlab.nexon.com:8022/analysis-support/gamescaletms/gamescale-tlm-2.0/tlm_fe_client.git
+ghq clone ssh://git@gitlab.nexon.com:8022/analysis-support/gamescaletms/gamescale-tlm-2.0/tlm_fe_client.git --depth=1
+c;ear
+which thunar
+cd ll
+yay obsidian
+yay -S docker-compose docker-buildx
+docker --help
+docker -h
+spicetify update
+sudo chmod a+wr /opt/spotify/Apps -R
+sudo chmod a+wr /opt/spotify
+sudo chmod u+w login.spa
+cd /opt/spotify/Apps/
+spicetify backup apply
+sudo spicetify backup apply
+curl -fsSL https://raw.githubusercontent.com/spicetify/cli/main/install.sh | sh
+spotify
+yay spotify
+yay neovim
+fc-list | grep -i "nerd"
+fc-list
+fc-list | grep "nerd"
+fc-list | grep nerd
+volta install pnpm@10.6.5
+hyprpaper &
+hyprpaper
+file
+man xkill
+hyprctl kill --help
+uwsm start hyprland
+uwsm -h
+uwsm
+Hyprland -h
+hyprland uwsm
+yay uwsm
+hyprctl kill
+yay wezterm
+WAYLAND_DEBUG=1 wezterm
+kill 8338
+kill 2524
+wezterm --debug
+type eza
+yay -R wezterm
+hyprlanh
+chsh -s /usr/bin/fish
+which fish | fish_clipboard_copy
+peco ~
+peco
+yay peco
+history -h
+yay z
+eza -l
+eza
+ls -l
+eza -G --icons --header --time-style=default -D
+eza -G --icons --header --time-style=default -1
+eza -G --icons --header --time-style=default -R
+eza -G --icons --header --time-style=default -T
+eza -G --icons --header --time-style=default -l
+eza -G --icons --header --time-style=default
+yay exa
+eza ls -G --icons --header --time-style=default
+eza ls -p -G --icons --header --time-style=default
+hyprctl dispatch
+wezterm start --always-new-process
+yay -S ttf-nerd-fonts-symbols-mono
+ghq clone https://github.com/Abhra00/walls.git --depth=1
+hyprlock
+yay hyprlock
+ghq get https://github.com/Abhra00/walls.git
+hyprpaper --help
+yay hyprpaper
+cd workspace/github.com/Abhra00/Matuprland/
+yay -S thunar
+yay starship
+yes
+curl -sS https://starship.rs/install.sh | sh
+sudo chmod +x launch.sh
+./launcher.sh
+cd launchers/
+cd .config/rofi/
+rofi -show drun
+cp -r rofi/ ~/.config/
+cp -r waybar/ ~/.config/
+cp -r waybar/ ~/.config/waybar/
+cp -r ~/.config/waybar/
+yay waybar
+ghq get https://github.com/Abhra00/Matuprland.git
+ghq get https://github.com/JaKooLit/Hyprland-Dots.git
+rofi -show run
+fc-cache
+yay jetbrains
+ghq get https://github.com/adi1090x/rofi.git
+ghq get https://github.com/manhtran1611/dotfiles.git
+rofi-theme-selector
+rofi -dump-config > ~/.config/rofi/config.rasi
+yay rofi wayland
+yay -S nwg-displays
+volta install node
+nano .volta
+nano .volta/
+touch .volta
+code config.fish
+which volta
+yay volta
+cd workspace/gitlab.nexon.com/analysis-support/gameweb/
+ghq get ssh://git@gitlab.nexon.com:8022/analysis-support/gameweb/gameweb-template.git
+rm -rf .ssh
+cd workspace/github.com/lazarus2019/
+cd workspace/github.com/lazarus2019/linux-setup/
+code &
+brave &
+nano hyprland.conf
+vi hyprland.conf
+ghq get https://github.com/lazarus2019/linux-setup.git
+mkdir workspace
+touch .gitconfig
+firefox && firefox &
+yay ghq
+cat hyprland.conf

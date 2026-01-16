@@ -1,6 +1,6 @@
-set fish_greeting ""
+set fish_greeting "I'm 🐟 shell, those are my friends 🐠 🐡 🐳 🦈"
 
-set -gx TERM xterm-256color
+# set -gx TERM xterm-256color
 
 # theme
 set -g theme_color_scheme terminal-dark
@@ -23,6 +23,11 @@ command -qv nvim && alias vim nvim
 # Volta config
 set -gx VOLTA_HOME "$HOME/.volta"
 set -gx PATH "$VOLTA_HOME/bin" $PATH
+set -gx EDITOR nvim
+
+# Go
+set -g GOPATH $HOME/go
+set -gx PATH $PATH $GOPATH/bin
 
 # Starship | https://starship.rs/
 # ~/.config/fish/config.fish
@@ -32,3 +37,11 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 fish_add_path /home/thaison/.spicetify
+
+# Set up fzf key bindings
+fzf --fish | source
+
+# DirEnv
+direnv hook fish | source
+# opencode
+fish_add_path /home/thaison/.opencode/bin

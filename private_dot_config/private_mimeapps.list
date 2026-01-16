@@ -1,0 +1,13 @@
+[Default Applications]
+x-scheme-handler/msteams=teams-for-linux.desktop
+application/pkix-cert=code.desktop
+x-scheme-handler/postman=Postman.desktop
+application/json=code.desktop
+
+[Added Associations]
+text/plain=org.gnome.gedit.desktop;code.desktop;
+application/pkix-cert=code.desktop;
+application/json=code.desktop;
+application/xml=code.desktop;
+image/png=phototonic.desktop;
+video/mp4=com.google.Chrome.desktop;

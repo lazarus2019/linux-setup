@@ -32,6 +32,7 @@
   hist = log --pretty=format:\"%Cgreen%h %Creset%cd %Cblue[%cn] %Creset%s%C(yellow)%d%C(reset)\" --graph --date=relative --decorate --all
   llog = log --graph --name-status --pretty=format:\"%C(red)%h %C(reset)(%cd) %C(green)%an %Creset%s %C(yellow)%d%Creset\" --date=relative
   open = "!hub browse"
+  ds  = diff --shortstat
   type = cat-file -t
   dump = cat-file -p
   find = "!f() { git log --pretty=format:\"%h %cd [%cn] %s%d\" --date=relative -S'pretty' -S\"$@\" | peco | awk '{print $1}' | xargs -I {} git diff {}^ {}; }; f"
@@ -39,6 +40,7 @@
   edit-unmerged = "!f() { git ls-files --unmerged | cut -f2 | sort -u ; }; vim `f`"
   # add conflicted file on merge
 	add-unmerged = "!f() { git ls-files --unmerged | cut -f2 | sort -u ; }; git add `f`"
+  down-dir = "!./scripts/down-git-repo.sh"
 
 [hub]
   protocol = https
@@ -60,7 +62,9 @@
   root = ~/workspace
 
 [user]
-	name = lazarus2019
-	email = thaisonbk2020@gmail.com
+	name = Thai Son
+	email = thaison@nexondv.com
 [init]
 	defaultBranch = main
+[pull]
+	rebase = false
