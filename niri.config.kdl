@@ -1,0 +1,214 @@
+input {
+    keyboard {
+        xkb {
+            layout "us"
+            model ""
+            rules ""
+            variant ",qwerty"
+            options "ctrl:nocaps"
+        }
+        repeat-delay 600
+        repeat-rate 25
+        track-layout "global"
+    }
+    touchpad {
+        tap
+        natural-scroll
+    }
+    focus-follows-mouse max-scroll-amount="20%"
+}
+output "DP-1" {
+    transform "normal"
+    position x=0 y=400
+    mode "2560x1440@74.924000"
+}
+output "DP-2" {
+    transform "270"
+    position x=2560 y=0
+    mode "2560x1440@74.924000"
+}
+screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
+prefer-no-csd
+overview { zoom 0.750000; }
+layout {
+    gaps 16
+    struts {
+        left 0
+        right 0
+        top -8
+        bottom 0
+    }
+    focus-ring { width 2; }
+    border { off; }
+    background-color "transparent"
+    shadow {
+        on
+        offset x=0 y=5
+        softness 30
+        spread 5
+        draw-behind-window false
+        color "#00000070"
+    }
+    tab-indicator {
+        gap 5.000000
+        width 4.000000
+        length total-proportion=0.500000
+        position "top"
+        gaps-between-tabs 10
+        corner-radius 0.000000
+    }
+    default-column-width
+    preset-column-widths {
+        proportion 0.250000
+        proportion 0.500000
+    }
+    center-focused-column "never"
+    always-center-single-column
+}
+cursor {
+    xcursor-theme "Banana"
+    xcursor-size 36
+}
+hotkey-overlay { skip-at-startup; }
+config-notification { disable-failed; }
+clipboard { disable-primary; }
+binds {
+    Mod+1 { focus-workspace "1"; }
+    Mod+2 { focus-workspace "2"; }
+    Mod+3 { focus-workspace "3"; }
+    Mod+4 { focus-workspace "4"; }
+    Mod+5 { focus-workspace "5"; }
+    Mod+6 { focus-workspace "6"; }
+    Mod+7 { focus-workspace "7"; }
+    Mod+8 { focus-workspace "8"; }
+    Mod+9 { focus-workspace "9"; }
+    Mod+A { toggle-overview; }
+    Mod+B { spawn "sh" "-c" "bzmenu -l rofi"; }
+    Mod+C { center-column; }
+    Mod+Comma { consume-window-into-column; }
+    Mod+Ctrl+F { switch-focus-between-floating-and-tiling; }
+    Mod+Ctrl+I { move-workspace-up; }
+    Mod+Ctrl+Q { spawn "sh" "-c" "pkill rofi || rofi -show rofi-power-menu"; }
+    Mod+Ctrl+Shift+L { spawn "sh" "-c" "hyprlock"; }
+    Mod+Ctrl+U { move-workspace-down; }
+    Mod+E { spawn "thunar"; }
+    Mod+Equal { set-column-width "+10%"; }
+    Mod+F { fullscreen-window; }
+    Mod+H { focus-column-or-monitor-left; }
+    Mod+I { focus-workspace-up; }
+    Mod+J { focus-window-down; }
+    Mod+K { focus-window-up; }
+    Mod+L { focus-column-or-monitor-right; }
+    Mod+M { maximize-column; }
+    Mod+Minus { set-column-width "-10%"; }
+    Mod+N { spawn "sh" "-c" "networkmanager_dmenu"; }
+    Mod+O { spawn "firefox"; }
+    Mod+P { spawn "sh" "-c" "pkill rofi || rofi-pass"; }
+    Mod+Period { expel-window-from-column; }
+    Mod+Q { close-window; }
+    Mod+R { switch-preset-column-width; }
+    Mod+Return { spawn "kitty"; }
+    Mod+Shift+1 { move-window-to-workspace "1"; }
+    Mod+Shift+2 { move-window-to-workspace "2"; }
+    Mod+Shift+3 { move-window-to-workspace "3"; }
+    Mod+Shift+4 { move-window-to-workspace "4"; }
+    Mod+Shift+5 { move-window-to-workspace "5"; }
+    Mod+Shift+6 { move-window-to-workspace "6"; }
+    Mod+Shift+7 { move-window-to-workspace "7"; }
+    Mod+Shift+8 { move-window-to-workspace "8"; }
+    Mod+Shift+9 { move-window-to-workspace "9"; }
+    Mod+Shift+Equal { set-window-height "+10%"; }
+    Mod+Shift+F { toggle-window-floating; }
+    Mod+Shift+H { move-column-left-or-to-monitor-left; }
+    Mod+Shift+I { move-window-to-workspace-up; }
+    Mod+Shift+J { move-window-down; }
+    Mod+Shift+K { move-window-up; }
+    Mod+Shift+L { move-column-right-or-to-monitor-right; }
+    Mod+Shift+M { expand-column-to-available-width; }
+    Mod+Shift+Minus { set-window-height "-10%"; }
+    Mod+Shift+S { screenshot; }
+    Mod+Shift+U { move-window-to-workspace-down; }
+    Mod+Shift+WheelScrollDown { focus-column-right; }
+    Mod+Shift+WheelScrollUp { focus-column-left; }
+    Mod+Space { spawn "sh" "-c" "vicinae vicinae://toggle"; }
+    Mod+T { toggle-column-tabbed-display; }
+    Mod+U { focus-workspace-down; }
+    Mod+V { spawn "sh" "-c" "vicinae vicinae://extensions/vicinae/clipboard/history"; }
+    Mod+WheelScrollDown { focus-workspace-down; }
+    Mod+WheelScrollUp { focus-workspace-up; }
+    XF86AudioLowerVolume { spawn "sh" "-c" "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.05-"; }
+    XF86AudioMute { spawn "sh" "-c" "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"; }
+    XF86AudioPlay { spawn "sh" "-c" "playerctl play-pause"; }
+    XF86AudioRaiseVolume { spawn "sh" "-c" "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.05+"; }
+}
+workspace "1" { open-on-output "DP-1"; }
+workspace "2" { open-on-output "DP-2"; }
+workspace "3" { open-on-output "DP-2"; }
+workspace "4" { open-on-output "DP-2"; }
+workspace "5" { open-on-output "DP-1"; }
+workspace "6" { open-on-output "DP-1"; }
+workspace "7" { open-on-output "DP-1"; }
+workspace "8" { open-on-output "DP-1"; }
+workspace "9" { open-on-output "DP-1"; }
+spawn-at-startup "bash" "-c" "wl-paste --watch cliphist store &"
+spawn-at-startup "auto_wallpaper"
+spawn-at-startup "google-chrome"
+spawn-at-startup "teams-for-linux"
+spawn-at-startup "spotify"
+window-rule {
+    draw-border-with-background false
+    geometry-corner-radius 8.000000 8.000000 8.000000 8.000000
+    clip-to-geometry true
+}
+window-rule {
+    match app-id="teams-for-linux"
+    open-on-workspace "5"
+}
+window-rule {
+    match title="^(Picture-in-Picture)$"
+    open-floating true
+    default-floating-position relative-to="bottom-right" x=100 y=100
+}
+window-rule {
+    match app-id="Safeeyes"
+    open-fullscreen true
+}
+window-rule {
+    match title="^flameshot$"
+    open-maximized true
+    open-fullscreen false
+    open-floating true
+    opacity 0.500000
+    min-width 4000
+    min-height 1440
+    default-floating-position relative-to="top-right" x=0 y=-400
+}
+window-rule {
+    match app-id="spotify"
+    open-on-workspace "9"
+    open-maximized true
+}
+window-rule {
+    match app-id="firefox"
+    open-on-workspace "2"
+}
+window-rule {
+    match app-id="firefox" title="GitLab"
+    open-on-workspace "6"
+}
+window-rule {
+    match app-id="firefox" title="Twitch|Youtube"
+    open-on-workspace "8"
+}
+layer-rule {
+    match namespace="^swww-daemon$"
+    place-within-backdrop true
+}
+gestures {
+    dnd-edge-view-scroll {
+        trigger-width 64
+        delay-ms 250
+        max-speed 12000
+    }
+}
+animations { slowdown 1.000000; }
